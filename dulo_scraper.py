@@ -30,14 +30,14 @@ EPG_API      = "https://epg.pw/api/epg.xml?channel_id={channel_id}"
 
 MAX_WORKERS  = 10  # Number of concurrent EPG downloads
 
+# Stream headers required to prevent 403 Forbidden errors
+STREAM_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+STREAM_REFERER    = "https://dulo.tv/"
+
 EPG_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/125.0.0.0 Safari/537.36"
-    ),
+    "User-Agent": STREAM_USER_AGENT,
     "Accept": "application/xml, text/xml, */*",
-    "Referer": "https://epg.pw/",
+    "Referer": "https://epg.pw",
 }
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -109,10 +109,12 @@ def build_m3u(channels: list[dict]) -> str:
         if not stream:
             continue
 
+        # Injects user-agent and referer metadata properties into the M3U structure
         lines.append(
-            f'#EXTINF:-1 tvg-id="{epg_cid}" tvg-name="{name}" '
-            f'tvg-logo="{logo}" group-title="{group}",{name}\n'
-            f'{stream}\n'
+            f'#EXTINF:-1 tvg-id="{epg_cid}" tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}\n'
+            f'#EXTVLCOPT:http-user-agent={STREAM_USER_AGENT}\n'
+            f'#EXTVLCOPT:http-referrer={STREAM_REFERER}\n'
+            f'{stream}|User-Agent={STREAM_USER_AGENT}&Referer={STREAM_REFERER}\n'
         )
     return "".join(lines)
 
