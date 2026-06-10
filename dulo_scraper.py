@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 dulo-tv-epg — generate.py
-Fetches live channel data from dulo.tv, produces:
-  - dulo.m3u       (M3U playlist with EPG header & custom player routing)
+Fetches live channel data from a stable upstream source, produces:
+  - dulo.m3u       (M3U playlist with EPG header & custom Kodi headers)
   - dulo.xml       (merged XMLTV EPG, uncompressed)
 """
 
@@ -11,12 +11,10 @@ import subprocess
 
 # Auto-install missing packages on GitHub Actions environment
 try:
-    import cloudscraper
     import requests
 except ImportError:
-    print("Dependencies missing. Installing cloudscraper and requests...")
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "cloudscraper", "requests"])
-    import cloudscraper
+    print("Dependencies missing. Installing requests...")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
     import requests
 
 import re
@@ -28,18 +26,22 @@ from xml.etree import ElementTree as ET
 REPO        = "BuddyChewChew/dulo-tv-epg"
 BRANCH      = "main"
 BASE_RAW    = f"https://githubusercontent.com{REPO}/{BRANCH}"
-EPG_URL     = f"{BASE_RAW}/dulo.xml"
+
+# Output paths
 M3U_OUT     = "dulo.m3u"
 EPG_OUT     = "dulo.xml"
 
-CHANNELS_API = "https://dulo.tv"
-EPG_API      = "https://epg.pw{channel_id}"
+# Target Endpoint Fallback System (Bypasses Cloudflare block)
+UPSTREAM_CHANNELS_JSON = f"{BASE_RAW}/channels.json" 
+CHANNELS_API           = "https://dulo.tv"
 
+EPG_URL      = f"{BASE_RAW}/dulo.xml"
+EPG_API      = "https://epg.pw{channel_id}"
 MAX_WORKERS  = 10  # Number of concurrent EPG downloads
 
 # Humanized Browser Emulation Matrix
 STREAM_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-STREAM_REFERER    = "https://dulo.tv"
+STREAM_REFERER    = "https://dulo.tv/"
 
 EPG_HEADERS = {
     "User-Agent": STREAM_USER_AGENT,
@@ -71,7 +73,7 @@ def get_best_stream_url(ch: dict) -> str:
         
     streams = ch.get("streams", [])
     if isinstance(streams, list) and len(streams) > 0:
-        first_stream = streams
+        first_stream = streams[0]
         if isinstance(first_stream, dict):
             return first_stream.get("url", first_stream.get("source_url", ""))
         return str(first_stream)
@@ -80,58 +82,37 @@ def get_best_stream_url(ch: dict) -> str:
 
 
 def fetch_channels() -> list[dict]:
-    print("Fetching channel list from dulo.tv …")
+    print("Fetching channel list...")
+    session = requests.Session()
+    session.headers.update({"User-Agent": STREAM_USER_AGENT})
     
-    # Instantiate cloudscraper with reinforced anti-bot avoidance options
-    scraper = cloudscraper.create_scraper(
-        browser={
-            "browser": "chrome",
-            "platform": "windows",
-            "desktop": True
-        }
-    )
-    
-    # Manually append comprehensive browser handshake payloads to look organic
-    scraper.headers.update({
-        "User-Agent": STREAM_USER_AGENT,
-        "Accept": "application/json, text/plain, */*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Referer": "https://dulo.tvlive-tv",
-        "Origin": "https://dulo.tv",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "same-origin"
-    })
-    
+    # Strategy 1: Attempt to read from the stable automated repository storage
     try:
-        # Prime cookie engine by loading the core index destination domain first
-        print("  → Pre-authenticating session cookies...")
-        scraper.get("https://dulo.tv", timeout=15)
-        time.sleep(2)
-        
-        # Dispatch request payload to API server context
-        r = scraper.get(CHANNELS_API, timeout=30)
-        
-        if r.status_code != 200:
-            print(f"  [error] HTTP Error status: {r.status_code} from target host.")
-            sys.exit(1)
-            
-        # Protect execution flow using explicit JSON parsing verification logic
-        try:
+        print(f"  → Attempting upstream storage retrieval from GitHub Raw...")
+        r = session.get(UPSTREAM_CHANNELS_JSON, timeout=15)
+        if r.status_code == 200:
             data = r.json()
-        except ValueError:
-            print("  [error] Server returned text/HTML block instead of programmatic JSON array.")
-            print("  [debug] Truncated output payload received:")
-            print(f"  {r.text[:500]}")
-            sys.exit(1)
-            
+            channels = data.get("channels", data) if isinstance(data, dict) else data
+            print(f"  → Success! Parsed {len(channels)} channels from repository mirror.")
+            return channels
     except Exception as e:
-        print(f"  [error] Intermittent network request pipeline failure: {e}")
+        print(f"  [info] Primary data source pipeline unavailable, attempting direct fetch fallback... ({e})")
+
+    # Strategy 2: Fallback direct request
+    try:
+        print(f"  → Attempting direct fallback connection to {CHANNELS_API}...")
+        r = session.get(CHANNELS_API, timeout=15)
+        if r.status_code == 200:
+            data = r.json()
+            channels = data.get("channels", data) if isinstance(data, dict) else data
+            print(f"  → Success! Parsed {len(channels)} channels directly.")
+            return channels
+    except Exception as e:
+        print(f"  [error] All backend pathways failed to parse channels: {e}")
         sys.exit(1)
         
-    channels = data.get("channels", data) if isinstance(data, dict) else data
-    print(f"  → {len(channels)} channels successfully mapped.")
-    return channels
+    print("  [error] Unable to acquire source array. Terminating engine context.")
+    sys.exit(1)
 
 
 def build_m3u(channels: list[dict]) -> str:
@@ -147,6 +128,7 @@ def build_m3u(channels: list[dict]) -> str:
         if not stream:
             continue
 
+        # Format optimized natively to bypass cloudflare streams on Kodi IPTV Simple Client
         lines.append(
             f'#EXTINF:-1 tvg-id="{epg_cid}" tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}\n'
             f'#EXTVLCOPT:http-user-agent={STREAM_USER_AGENT}\n'
