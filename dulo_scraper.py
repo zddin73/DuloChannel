@@ -1,105 +1,206 @@
 #!/usr/bin/env python3
-import sys, subprocess, re, time
+"""
+dulo-tv-epg — generate.py
+Fetches live channel data from dulo.tv, produces:
+  - dulo.m3u       (M3U playlist with EPG header)
+  - dulo.xml       (merged XMLTV EPG, uncompressed)
+
+EPG data sourced from epg.pw per-channel XML API.
+"""
+
+import re
+import sys
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from xml.etree import ElementTree as ET
 
-try:
-    import requests
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
-    import requests
+import cloudscraper
+import requests
 
-# Configuration
-M3U_OUT  = "dulo.m3u"
-EPG_OUT  = "dulo.xml"
-API_URL  = "https://dulo.tv"
-EPG_API  = "https://epg.pw{channel_id}"
+# ── Config ────────────────────────────────────────────────────────────────────
+REPO        = "BuddyChewChew/dulo-tv-epg"
+BRANCH      = "main"
+BASE_RAW    = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}"
+EPG_URL     = f"{BASE_RAW}/dulo.xml"  # Changed from .xml.gz to .xml
+M3U_OUT     = "dulo.m3u"
+EPG_OUT     = "dulo.xml"     # Changed from .xml.gz to .xml
 
-UA  = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
-REF = "https://dulo.tv"
+CHANNELS_API = "https://dulo.tv/api/live-tv/channels"
+EPG_API      = "https://epg.pw/api/epg.xml?channel_id={channel_id}"
 
-def fetch_channels():
-    print("Scraping dulo.tv directly...")
-    session = requests.Session()
-    session.headers.update({
-        "User-Agent": UA, "Referer": REF, "Accept": "application/json",
-        "Origin": "https://dulo.tv", "Sec-Fetch-Site": "same-origin"
-    })
+MAX_WORKERS  = 10  # Number of concurrent EPG downloads
+
+EPG_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/125.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/xml, text/xml, */*",
+    "Referer": "https://epg.pw/",
+}
+
+# ── Helpers ───────────────────────────────────────────────────────────────────
+
+def extract_epg_channel_id(epg_source_url: str) -> str | None:
+    if not epg_source_url:
+        return None
+    m = re.search(r"channel_id=(\d+)", epg_source_url)
+    if m:
+        return m.group(1)
+    m = re.search(r"/(\d+)\.html", epg_source_url)
+    if m:
+        return m.group(1)
+    return None
+
+
+def get_best_stream_url(ch: dict) -> str:
+    """Extracts the operational stream URL by trying multiple likely keys."""
+    # 1. Check primary source_url
+    if ch.get("source_url"):
+        return ch["source_url"]
+    
+    # 2. Check fallback url key
+    if ch.get("url"):
+        return ch["url"]
+        
+    # 3. Check for nested stream structures if API formatting varies
+    streams = ch.get("streams", [])
+    if isinstance(streams, list) and len(streams) > 0:
+        first_stream = streams[0]
+        if isinstance(first_stream, dict):
+            return first_stream.get("url", first_stream.get("source_url", ""))
+        return str(first_stream)
+        
+    return ""
+
+
+def fetch_channels() -> list[dict]:
+    print("Fetching channel list from dulo.tv …")
+    scraper = cloudscraper.create_scraper(
+        browser={"browser": "chrome", "platform": "windows", "mobile": False}
+    )
     try:
-        # Load index page first to inherit normal tracking cookies
-        session.get(REF, timeout=10)
-        time.sleep(1)
-        r = session.get(API_URL, timeout=15)
-        if r.status_code == 200:
-            data = r.json()
-            return data.get("channels", data) if isinstance(data, dict) else data
+        r = scraper.get(CHANNELS_API, timeout=30)
+        if r.status_code != 200:
+            print(f"  [error] HTTP {r.status_code} from dulo.tv")
+            print(f"  Response: {r.text[:300]}")
+            sys.exit(1)
+        data = r.json()
     except Exception as e:
-        print(f"Direct API link blocked or down: {e}")
-    sys.exit("Could not fetch channel data array.")
+        print(f"  [error] Failed to fetch or parse JSON from dulo.tv: {e}")
+        sys.exit(1)
+        
+    channels = data.get("channels", data) if isinstance(data, dict) else data
+    print(f"  → {len(channels)} channels found")
+    return channels
 
-def fetch_epg_xml(session, cid):
+
+def build_m3u(channels: list[dict]) -> str:
+    lines = [f'#EXTM3U url-tvg="{EPG_URL}" x-tvg-url="{EPG_URL}"\n']
+    for ch in channels:
+        ch_id   = ch.get("id", "")
+        name    = ch.get("name", "Unknown")
+        logo    = ch.get("logo_url", "")
+        group   = ch.get("category", "General").title()
+        stream  = get_best_stream_url(ch)
+        epg_cid = extract_epg_channel_id(ch.get("epg_source_url", "")) or ch_id
+
+        if not stream:
+            continue
+
+        lines.append(
+            f'#EXTINF:-1 tvg-id="{epg_cid}" tvg-name="{name}" '
+            f'tvg-logo="{logo}" group-title="{group}",{name}\n'
+            f'{stream}\n'
+        )
+    return "".join(lines)
+
+
+def fetch_epg_xml(session: requests.Session, channel_id: str) -> ET.Element | None:
+    url = EPG_API.format(channel_id=channel_id)
     try:
-        r = session.get(EPG_API.format(channel_id=cid), timeout=12)
-        return ET.fromstring(r.content) if r.status_code == 200 else None
-    except: return None
+        r = session.get(url, timeout=15)
+        if r.status_code != 200:
+            return None
+        # Use fromstring directly, handle potential decoding/malformed quirks safely
+        return ET.fromstring(r.content)
+    except Exception:
+        return None
+
+
+def build_epg(channels: list[dict]) -> bytes:
+    session = requests.Session()
+    session.headers.update(EPG_HEADERS)
+
+    tv = ET.Element("tv", attrib={
+        "source-info-name": "epg.pw",
+        "generator-info-name": f"github.com/{REPO}",
+    })
+
+    seen_channels: set[str] = set()
+    programme_elements: list[ET.Element] = []
+
+    # Filter channels down to valid targets needing external EPG lookups
+    tasks = {}
+    for ch in channels:
+        ch_id = extract_epg_channel_id(ch.get("epg_source_url", ""))
+        if ch_id:
+            tasks[ch_id] = ch.get('name', ch_id)
+
+    print(f"  → Spawning parallel downloads for {len(tasks)} EPG dependencies...")
+    
+    # Run multi-threaded downloads to optimize script speed drastically
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        future_to_id = {executor.submit(fetch_epg_xml, session, cid): (cid, name) for cid, name in tasks.items()}
+        
+        for idx, future in enumerate(as_completed(future_to_id), 1):
+            cid, name = future_to_id[future]
+            try:
+                root = future.result()
+                if root is None:
+                    continue
+                
+                for chan_el in root.findall("channel"):
+                    c_id = chan_el.get("id", "")
+                    if c_id and c_id not in seen_channels:
+                        seen_channels.add(c_id)
+                        tv.append(chan_el)
+
+                for prog_el in root.findall("programme"):
+                    programme_elements.append(prog_el)
+            except Exception as e:
+                print(f"    [warn] Failed processing EPG for {name}: {e}")
+
+    for prog_el in programme_elements:
+        tv.append(prog_el)
+
+    xml_bytes = b'<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(tv, encoding="unicode").encode('utf-8')
+    return xml_bytes
+
+
+# ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
+    start_time = time.time()
     channels = fetch_channels()
-    print(f"Successfully scraped {len(channels)} channels.")
-    
-    # 1. Build M3U Playlist with Kodi Header properties
-    m3u_lines = ['#EXTM3U url-tvg="dulo.xml" x-tvg-url="dulo.xml"\n']
-    tasks = {}
-    
-    for ch in channels:
-        name = ch.get("name", "Unknown")
-        cid  = ch.get("id", "Unknown")
-        logo = ch.get("logo_url", "")
-        grp  = ch.get("category", "General").title()
-        url  = ch.get("source_url") or ch.get("url") or ""
-        
-        # Extract external EPG lookup ID if available
-        epg_url = ch.get("epg_source_url", "")
-        m = re.search(r"channel_id=(\d+)", epg_url) or re.search(r"/(\d+)\.html", epg_url)
-        epg_id = m.group(1) if m else cid
-        
-        if not url: continue
-        if epg_id and epg_id != "Unknown": tasks[epg_id] = name
-            
-        m3u_lines.append(
-            f'#EXTINF:-1 tvg-id="{epg_id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grp}",{name}\n'
-            f'#EXTVLCOPT:http-user-agent={UA}\n'
-            f'#EXTVLCOPT:http-referrer={REF}\n'
-            f'{url}|User-Agent={UA}&Referer={REF}\n'
-        )
-        
-    with open(M3U_OUT, "w", encoding="utf-8") as f:
-        f.write("".join(m3u_lines))
-    print(f"  → Wrote local uncompressed M3U playlist file.")
 
-    # 2. Build Threaded Uncompressed XML EPG
-    session = requests.Session()
-    session.headers.update({"User-Agent": UA, "Referer": "https://epg.pw"})
-    tv = ET.Element("tv", {"generator-info-name": "DuloScraper"})
-    seen, progs = set(), []
+    print("\nBuilding M3U playlist …")
+    m3u_content = build_m3u(channels)
+    with open(M3U_OUT, "w", encoding="utf-8") as f:
+        f.write(m3u_content)
+    print(f"  → wrote {M3U_OUT} ({len(m3u_content):,} bytes)")
+
+    print("\nFetching EPG data from epg.pw …")
+    xml_bytes = build_epg(channels)
     
-    print(f"Downloading EPG timelines concurrently for {len(tasks)} items...")
-    with ThreadPoolExecutor(max_workers=10) as executor:
-        futures = {executor.submit(fetch_epg_xml, session, cid): cid for cid in tasks.keys()}
-        for f in as_completed(futures):
-            root = f.result()
-            if root is None: continue
-            for chan in root.findall("channel"):
-                if chan.get("id") not in seen:
-                    seen.add(chan.get("id")); tv.append(chan)
-            for prog in root.findall("programme"): progs.append(prog)
-                
-    for p in progs: tv.append(p)
-    xml_bytes = b'<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(tv, encoding="unicode").encode('utf-8')
-    
+    # Fixed: Changed from gzip.open to standard open for an uncompressed file output
     with open(EPG_OUT, "wb") as f:
         f.write(xml_bytes)
-    print("  → Wrote local uncompressed XML EPG timeline data.")
+    print(f"  → wrote {EPG_OUT} ({len(xml_bytes):,} bytes uncompressed)")
+
+    print(f"\nDone in {time.time() - start_time:.2f} seconds.")
+
 
 if __name__ == "__main__":
     main()
