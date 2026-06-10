@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/BuddyChewChew/dulo-tv-epg/main/dulo.xml" x-tvg-url="https://raw.githubusercontent.com/BuddyChewChew/dulo-tv-epg/main/dulo.xml"
+#EXTM3U
 #EXTINF:-1 tvg-id="0b56be49-557e-4315-9258-e9a0728ab608" tvg-name="A&E East HD | USA" tvg-logo="https://iptvboss.xyz/logos/USA/AandENetwork.us.png" group-title="Entertainment",A&E East HD | USA
 #EXTVLCOPT:http-user-agent=otg/1.5.1 (AppleTv Apple TV 4; tvOS16.0; appletv.client) libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11 clib/1.8.56
 #EXTVLCOPT:http-referrer=https://dulo.tv/
