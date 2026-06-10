@@ -137,10 +137,6 @@ def build_epg(channels: list[dict]) -> bytes:
 
     tv = ET.Element("tv")
     tv.set("generator-info-name", "Dulo Channels Scraper")
-  
-  #  tv = ET.Element("tv", attrib={
-   #     "generator-info-name": f'Dulo Channels Scraper\n',
-   # })
 
     seen_channels: set[str] = set()
     programme_elements: list[ET.Element] = []
@@ -178,6 +174,14 @@ def build_epg(channels: list[dict]) -> bytes:
 
     for prog_el in programme_elements:
         tv.append(prog_el)
+
+    # Automatically add indentation and line breaks to the XML tree structure
+    ET.indent(tv, space="  ", level=0)
+
+    # Convert to string and explicitly insert a newline after the root element opening tag
+    xml_str = ET.tostring(tv, encoding="unicode")
+    target_tag = '<tv generator-info-name="Dulo Channels Scraper">'
+    xml_str = xml_str.replace(target_tag, target_tag + "\n")
 
     xml_bytes = b'<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(tv, encoding="unicode").encode('utf-8')
     return xml_bytes
