@@ -37,9 +37,9 @@ EPG_API      = "https://epg.pw{channel_id}"
 
 MAX_WORKERS  = 10  # Number of concurrent EPG downloads
 
-# Stream headers required to prevent 403 Forbidden errors
-STREAM_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
-STREAM_REFERER    = "https://dulo.tv/"
+# Humanized Browser Emulation Matrix
+STREAM_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+STREAM_REFERER    = "https://dulo.tv"
 
 EPG_HEADERS = {
     "User-Agent": STREAM_USER_AGENT,
@@ -71,7 +71,7 @@ def get_best_stream_url(ch: dict) -> str:
         
     streams = ch.get("streams", [])
     if isinstance(streams, list) and len(streams) > 0:
-        first_stream = streams[0]
+        first_stream = streams
         if isinstance(first_stream, dict):
             return first_stream.get("url", first_stream.get("source_url", ""))
         return str(first_stream)
@@ -81,21 +81,56 @@ def get_best_stream_url(ch: dict) -> str:
 
 def fetch_channels() -> list[dict]:
     print("Fetching channel list from dulo.tv …")
+    
+    # Instantiate cloudscraper with reinforced anti-bot avoidance options
     scraper = cloudscraper.create_scraper(
-        browser={"browser": "chrome", "platform": "windows", "mobile": False}
+        browser={
+            "browser": "chrome",
+            "platform": "windows",
+            "desktop": True
+        }
     )
+    
+    # Manually append comprehensive browser handshake payloads to look organic
+    scraper.headers.update({
+        "User-Agent": STREAM_USER_AGENT,
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://dulo.tvlive-tv",
+        "Origin": "https://dulo.tv",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin"
+    })
+    
     try:
+        # Prime cookie engine by loading the core index destination domain first
+        print("  → Pre-authenticating session cookies...")
+        scraper.get("https://dulo.tv", timeout=15)
+        time.sleep(2)
+        
+        # Dispatch request payload to API server context
         r = scraper.get(CHANNELS_API, timeout=30)
+        
         if r.status_code != 200:
-            print(f"  [error] HTTP {r.status_code} from dulo.tv")
+            print(f"  [error] HTTP Error status: {r.status_code} from target host.")
             sys.exit(1)
-        data = r.json()
+            
+        # Protect execution flow using explicit JSON parsing verification logic
+        try:
+            data = r.json()
+        except ValueError:
+            print("  [error] Server returned text/HTML block instead of programmatic JSON array.")
+            print("  [debug] Truncated output payload received:")
+            print(f"  {r.text[:500]}")
+            sys.exit(1)
+            
     except Exception as e:
-        print(f"  [error] Failed to fetch or parse JSON from dulo.tv: {e}")
+        print(f"  [error] Intermittent network request pipeline failure: {e}")
         sys.exit(1)
         
     channels = data.get("channels", data) if isinstance(data, dict) else data
-    print(f"  → {len(channels)} channels found")
+    print(f"  → {len(channels)} channels successfully mapped.")
     return channels
 
 
@@ -112,7 +147,6 @@ def build_m3u(channels: list[dict]) -> str:
         if not stream:
             continue
 
-        # Injects user-agent and referer metadata properties into the M3U structure
         lines.append(
             f'#EXTINF:-1 tvg-id="{epg_cid}" tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}\n'
             f'#EXTVLCOPT:http-user-agent={STREAM_USER_AGENT}\n'
@@ -139,7 +173,7 @@ def build_epg(channels: list[dict]) -> bytes:
 
     tv = ET.Element("tv", attrib={
         "source-info-name": "epg.pw",
-        "generator-info-name": f"://github.com{REPO}",
+        "generator-info-name": f"github.com/{REPO}",
     })
 
     seen_channels: set[str] = set()
