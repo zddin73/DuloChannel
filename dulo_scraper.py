@@ -135,9 +135,12 @@ def build_epg(channels: list[dict]) -> bytes:
     session = requests.Session()
     session.headers.update(EPG_HEADERS)
 
-    tv = ET.Element("tv", attrib={
-        "generator-info-name": f'Dulo Channels Scraper\n',
-    })
+    tv = ET.Element("tv")
+    tv.set("generator-info-name", "Dulo Channels Scraper")
+  
+  #  tv = ET.Element("tv", attrib={
+   #     "generator-info-name": f'Dulo Channels Scraper\n',
+   # })
 
     seen_channels: set[str] = set()
     programme_elements: list[ET.Element] = []
