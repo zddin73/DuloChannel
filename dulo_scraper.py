@@ -97,7 +97,7 @@ def fetch_channels() -> list[dict]:
 
 
 def build_m3u(channels: list[dict]) -> str:
-    lines = (f'#EXTM3U\n')
+    lines = [f'#EXTM3U\n']
     for ch in channels:
         ch_id   = ch.get("id", "")
         name    = ch.get("name", "Unknown")
