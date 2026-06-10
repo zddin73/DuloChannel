@@ -18,10 +18,10 @@ import cloudscraper
 import requests
 
 # ── Config ────────────────────────────────────────────────────────────────────
-REPO        = "BuddyChewChew/dulo-tv-epg"
-BRANCH      = "main"
-BASE_RAW    = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}"
-EPG_URL     = f"{BASE_RAW}/dulo.xml"  # Changed from .xml.gz to .xml
+# REPO        = "BuddyChewChew/dulo-tv-epg"
+# BRANCH      = "main"
+# BASE_RAW    = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}"
+# EPG_URL     = f"{BASE_RAW}/dulo.xml"  # Changed from .xml.gz to .xml
 M3U_OUT     = "dulo.m3u"
 EPG_OUT     = "dulo.xml"     # Changed from .xml.gz to .xml
 
@@ -97,7 +97,7 @@ def fetch_channels() -> list[dict]:
 
 
 def build_m3u(channels: list[dict]) -> str:
-    lines = [f'#EXTM3U url-tvg="{EPG_URL}" x-tvg-url="{EPG_URL}"\n']
+    lines = (f'#EXTM3U\n')
     for ch in channels:
         ch_id   = ch.get("id", "")
         name    = ch.get("name", "Unknown")
