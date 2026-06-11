@@ -66,7 +66,7 @@ https://gotcha.dulo.tv/memfs/f9d027af-a9d2-4c59-865e-7101f7602966.m3u8
 #EXTINF:-1 tvg-id="464857" tvg-name="CNN HD | USA" tvg-logo="https://iptvboss.xyz/logos/USA/CNN.us.png" group-title="News",CNN HD | USA
 #EXTVLCOPT:http-user-agent=otg/1.5.1 (AppleTv Apple TV 4; tvOS16.0; appletv.client) libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11 clib/1.8.56
 #EXTVLCOPT:http-referrer=https://dulo.tv/
-https://gotcha.dulo.tv/memfs/bd76a4bc-4dec-4fc7-b200-e0b9f0302dbf.m3u8
+https://bridge.dulo.tv/memfs/6b3dcd25-a9c7-43f6-aff0-30ec0ecfb9f3.m3u8
 #EXTINF:-1 tvg-id="464922" tvg-name="Comedy Central HD | USA" tvg-logo="https://iptvboss.xyz/logos/USA/ComedyCentral.us.png" group-title="Entertainment",Comedy Central HD | USA
 #EXTVLCOPT:http-user-agent=otg/1.5.1 (AppleTv Apple TV 4; tvOS16.0; appletv.client) libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11 clib/1.8.56
 #EXTVLCOPT:http-referrer=https://dulo.tv/
