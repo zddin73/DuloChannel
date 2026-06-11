@@ -1,2 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="Dulo Channels Scraper" />
+<tv generator-info-name="Dulo Channels Scraper">
+  <channel id="465198">
+    <display-name lang="US">ESPN HD</display-name>
+    <icon src="" />
+  </channel>
+  <programme channel="465198" start="20260611000000 +0000" stop="20260611030000 +0000">
+    <title lang="zh">Live: Men's &amp; Women's College Track and Field</title>
+    <desc>Action from men's and women's college track and field events.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611030000 +0000" stop="20260611040000 +0000">
+    <title lang="zh">Live: Inside the NBA</title>
+    <desc>This Emmy Award-winning studio show, which airs following NBA telecasts on ESPN, is hosted by Ernie Johnson, with analysis from Hall of Famer Charles Barkley and NBA champions Kenny Smith and Shaquille O'Neal. It's a mix of highlights, interviews and hijinks, notably the verbal sparring sessions between the outspoken Barkley and his straight man, Smith. The show also welcomes various guest analyst</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611040000 +0000" stop="20260611050000 +0000">
+    <title lang="zh">Live: SportsCenter With Scott Van Pelt</title>
+    <desc>SVP's up at midnight and bringing his unique perspective on games people play to "SportsCenter" viewers. The hourlong, late-night show is driven by the host's self-deprecating wit and passion for sports, with featured elements, including Van Pelt's nightly "1 Big Thing" commentary and a weekly look back at the moments that drove bettors wild in "Bad Beats." The show also delivers what "SportsCente</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611050000 +0000" stop="20260611060000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611060000 +0000" stop="20260611070000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611070000 +0000" stop="20260611080000 +0000">
+    <title lang="zh">SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611080000 +0000" stop="20260611100000 +0000">
+    <title lang="zh">2026 NBA Finals</title>
+    <desc>The Knicks host the Spurs at Madison Square Garden for Game 4 of the NBA Finals.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611100000 +0000" stop="20260611110000 +0000">
+    <title lang="zh">SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611110000 +0000" stop="20260611120000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611120000 +0000" stop="20260611140000 +0000">
+    <title lang="zh">Live: Get Up</title>
+    <desc>ESPN's morning show features host Mike Greenberg with a rotating and diverse group of analysts opining about and analyzing the latest news from the world of sports. The two-hour, personality-driven show originates from Hudson Square in Lower Manhattan, a modern media hub for ESPN and The Walt Disney Company's New York-based teams. Greenberg, aka "Greeny," is formerly one-half of ESPN Radio's longt</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611140000 +0000" stop="20260611160000 +0000">
+    <title lang="zh">Live: First Take</title>
+    <desc>Stephen A. Smith hosts this weekday morning sports debate show. Smith provides his expert takes on the day's trending sports topics and under-the-radar news. They're regularly joined by veteran analysts and the top guests in sports and entertainment.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611160000 +0000" stop="20260611180000 +0000">
+    <title lang="zh">Live: The Pat McAfee Show</title>
+    <desc>Former NFL punter Pat McAfee brings his humor and candor to the microphone to highlight the day's top stories.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611180000 +0000" stop="20260611190000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611190000 +0000" stop="20260611200000 +0000">
+    <title lang="zh">Live: NBA Today</title>
+    <desc>In-depth, comprehensive daily coverage of all aspects of the NBA from expert analysts.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611200000 +0000" stop="20260611210000 +0000">
+    <title lang="zh">NFL Live</title>
+    <desc>Host Laura Rutledge takes the helm of this weekday show featuring the likes of Marcus Spears, Dan Orlovsky, Mina Kimes, and Adam Schefter. The "NFL Live" crew entertains fans while offering all the latest news and analysis from across the NFL.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611210000 +0000" stop="20260611213000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611213000 +0000" stop="20260611220000 +0000">
+    <title lang="zh">Live: Pardon the Interruption</title>
+    <desc>The debate is the story in this fast-paced, half-hour series hosted by former Washington Post sportswriters Tony Kornheiser and Michael Wilbon. The pair engage in high-energy discussions, conduct interviews and often argue over topics not even related to sports. Other sports reporters appear as guests and offer opinions on the top stories of the day.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611220000 +0000" stop="20260611230000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260611230000 +0000" stop="20260612000000 +0000">
+    <title lang="zh">Live: MLB Baseball</title>
+    <desc>Seattle and Baltimore play the finale of their 4-game series at Oriole Park at Camden Yards. Bryan Woo and Kyle Bradish are the expected starters in this clash. The last five games for both teams are balanced with two wins and three losses.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465198" start="20260612020000 +0000" stop="20260612030000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612030000 +0000" stop="20260612040000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612040000 +0000" stop="20260612050000 +0000">
+    <title lang="zh">Live: SportsCenter With Scott Van Pelt</title>
+    <desc>SVP's up at midnight and bringing his unique perspective on games people play to "SportsCenter" viewers. The hourlong, late-night show is driven by the host's self-deprecating wit and passion for sports, with featured elements, including Van Pelt's nightly "1 Big Thing" commentary and a weekly look back at the moments that drove bettors wild in "Bad Beats." The show also delivers what "SportsCente</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612050000 +0000" stop="20260612060000 +0000">
+    <title lang="zh">SportsCenter With Scott Van Pelt</title>
+    <desc>SVP's up at midnight and bringing his unique perspective on games people play to "SportsCenter" viewers. The hourlong, late-night show is driven by the host's self-deprecating wit and passion for sports, with featured elements, including Van Pelt's nightly "1 Big Thing" commentary and a weekly look back at the moments that drove bettors wild in "Bad Beats." The show also delivers what "SportsCente</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612060000 +0000" stop="20260612070000 +0000">
+    <title lang="zh">SportsCenter With Scott Van Pelt</title>
+    <desc>SVP's up at midnight and bringing his unique perspective on games people play to "SportsCenter" viewers. The hourlong, late-night show is driven by the host's self-deprecating wit and passion for sports, with featured elements, including Van Pelt's nightly "1 Big Thing" commentary and a weekly look back at the moments that drove bettors wild in "Bad Beats." The show also delivers what "SportsCente</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612070000 +0000" stop="20260612080000 +0000">
+    <title lang="zh">SportsCenter With Scott Van Pelt</title>
+    <desc>SVP's up at midnight and bringing his unique perspective on games people play to "SportsCenter" viewers. The hourlong, late-night show is driven by the host's self-deprecating wit and passion for sports, with featured elements, including Van Pelt's nightly "1 Big Thing" commentary and a weekly look back at the moments that drove bettors wild in "Bad Beats." The show also delivers what "SportsCente</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612080000 +0000" stop="20260612100000 +0000">
+    <title lang="zh">2026 Stanley Cup Final</title>
+    <desc>Game 5.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612100000 +0000" stop="20260612110000 +0000">
+    <title lang="zh">SportsCenter With Scott Van Pelt</title>
+    <desc>SVP's up at midnight and bringing his unique perspective on games people play to "SportsCenter" viewers. The hourlong, late-night show is driven by the host's self-deprecating wit and passion for sports, with featured elements, including Van Pelt's nightly "1 Big Thing" commentary and a weekly look back at the moments that drove bettors wild in "Bad Beats." The show also delivers what "SportsCente</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612110000 +0000" stop="20260612120000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612120000 +0000" stop="20260612140000 +0000">
+    <title lang="zh">Live: Get Up</title>
+    <desc>ESPN's morning show features host Mike Greenberg with a rotating and diverse group of analysts opining about and analyzing the latest news from the world of sports. The two-hour, personality-driven show originates from Hudson Square in Lower Manhattan, a modern media hub for ESPN and The Walt Disney Company's New York-based teams. Greenberg, aka "Greeny," is formerly one-half of ESPN Radio's longt</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612140000 +0000" stop="20260612160000 +0000">
+    <title lang="zh">Live: First Take</title>
+    <desc>Stephen A. Smith hosts this weekday morning sports debate show. Smith provides his expert takes on the day's trending sports topics and under-the-radar news. They're regularly joined by veteran analysts and the top guests in sports and entertainment.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612160000 +0000" stop="20260612180000 +0000">
+    <title lang="zh">Live: The Pat McAfee Show</title>
+    <desc>Former NFL punter Pat McAfee brings his humor and candor to the microphone to highlight the day's top stories.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612180000 +0000" stop="20260612210000 +0000">
+    <title lang="zh">Live: 2026 Men's College World Series</title>
+    <desc>The Troy Trojans and the West Virginia Mountaineers face-off in Omaha, Nebraska in the 2026 Men's College World Series. Troy's Jimmy Janicki leads his team with 19 home runs, while Gavin Kelly leads West Virginia with 17 home runs.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612210000 +0000" stop="20260612213000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612213000 +0000" stop="20260612220000 +0000">
+    <title lang="zh">Live: Pardon the Interruption</title>
+    <desc>The debate is the story in this fast-paced, half-hour series hosted by former Washington Post sportswriters Tony Kornheiser and Michael Wilbon. The pair engage in high-energy discussions, conduct interviews and often argue over topics not even related to sports. Other sports reporters appear as guests and offer opinions on the top stories of the day.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612220000 +0000" stop="20260612230000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465198" start="20260612230000 +0000" stop="20260613000000 +0000">
+    <title lang="zh">Live: 2026 Men's College World Series</title>
+    <desc>The Ole Miss Rebels battle the North Carolina Tar Heels in a Men's College World Series game. Hunter Elliott, the strikeout leader for Ole Miss, faces North Carolina home run leader Cooper Nicholson in Omaha, Nebraska.</desc>
+    <date>2026-06-12</date>
+  </programme>
+</tv>
