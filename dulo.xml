@@ -4,12 +4,12 @@
     <display-name lang="US">ESPN2 HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="464937">
-    <display-name lang="US">CBS Sports Network HD</display-name>
-    <icon src="" />
-  </channel>
   <channel id="465198">
     <display-name lang="US">ESPN HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="464937">
+    <display-name lang="US">CBS Sports Network HD</display-name>
     <icon src="" />
   </channel>
   <programme channel="465373" start="20260612000000 +0000" stop="20260612040000 +0000">
@@ -227,156 +227,6 @@
     <desc>From Hayward Field in Eugene, Ore.</desc>
     <date>2026-06-14</date>
   </programme>
-  <programme channel="464937" start="20260612003000 +0000" stop="20260612033000 +0000">
-    <title lang="zh">Live: CFL Football</title>
-    <desc>The Winnipeg Blue Bombers and Hamilton Tiger-Cats square off in a regular-season matchup. Host Blue Bombers lean on running back Brady Oliveira after his 113-yard performance, while the Tiger-Cats rely on Bo Levi Mitchell and his 307 passing yards.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612033000 +0000" stop="20260612050000 +0000">
-    <title lang="zh">UFC Countdown</title>
-    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612050000 +0000" stop="20260612080000 +0000">
-    <title lang="zh">UFC Reloaded</title>
-    <desc>The replay of UFC pay-per-views and Fight Night events.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612080000 +0000" stop="20260612090000 +0000">
-    <title lang="zh">UFC Main Event</title>
-    <desc>We take a look back at Alexander Volkanovski and Max Holloway's UFC 276 bout as the pair met in the featherweight division for the third time back in July 2022.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612090000 +0000" stop="20260612100000 +0000">
-    <title lang="zh">UFC Main Event</title>
-    <desc>At UFC 309, former lightweight champion Charles Oliveira faces Michael Chandler in a rematch at Madison Square Garden.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612100000 +0000" stop="20260612140000 +0000">
-    <title lang="zh">Live: Boomer and Gio</title>
-    <desc>CBS Sports Network simulcasts WFAN's "Boomer and Gio." Former NFL MVP Boomer Esiason and longtime radio personality Gregg Giannotti tackle the latest sports news and headlines.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612140000 +0000" stop="20260612153000 +0000">
-    <title lang="zh">UFC Countdown</title>
-    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612153000 +0000" stop="20260612160000 +0000">
-    <title lang="zh">UFC Fight Flashback</title>
-    <desc>UFC Fight Flashback is an enhanced replay of some of the most memorable title fights in UFC history, featuring never-before-seen footage from state-of-the-art cameras, and exclusive new sound.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612160000 +0000" stop="20260612170000 +0000">
-    <title lang="zh">Early Edge</title>
-    <desc>The Early Edge breaks down the day's biggest games, giving sports fans the best bets -- from long shots to sure things.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612170000 +0000" stop="20260612180000 +0000">
-    <title lang="zh">The Joe &amp; Ruffino Show</title>
-    <desc>Blake Ruffino and Joe DeLeone join forces to talk about the latest in the SEC and College Football.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612180000 +0000" stop="20260612200000 +0000">
-    <title lang="zh">CBS Sports HQ Spotlight</title>
-    <desc>Sports news and highlights.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612200000 +0000" stop="20260612220000 +0000">
-    <title lang="zh">CBS Sports HQ Spotlight</title>
-    <desc>Sports news and highlights.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612220000 +0000" stop="20260613000000 +0000">
-    <title lang="zh">Live: AVP Beach Volleyball</title>
-    <desc>Coverage of beach volleyball competitions from around the United States.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260613000000 +0000" stop="20260613013000 +0000">
-    <title lang="zh">UFC Countdown</title>
-    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613013000 +0000" stop="20260613043000 +0000">
-    <title lang="zh">UFC Reloaded</title>
-    <desc>Bantamweight champion Aljamain Sterling defends his title against fighting rival, Sean O'Malley. Also, Zhang Weili goes head-to-head with veteran Amanda Lemos.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613043000 +0000" stop="20260613050000 +0000">
-    <title lang="zh">UFC - The Walk</title>
-    <desc>Go behind-the-scenes with the UFC's biggest stars in the lead up to some of the biggest fights of their careers.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613050000 +0000" stop="20260613053000 +0000">
-    <title lang="zh">UFC Ultimate Knockouts</title>
-    <desc>A look at Dana White's contender series alumni.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613053000 +0000" stop="20260613070000 +0000">
-    <title lang="zh">UFC Countdown</title>
-    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613070000 +0000" stop="20260613100000 +0000">
-    <title lang="zh">UFC Reloaded</title>
-    <desc>Newly crowned bantamweight champion Sean O'Malley has his first title defense against the only man to beat him, top contender Marlon Vera. Plus, Dustin Poirier takes on Benoit Saint Denis and Michael Page makes his debut against Kevin Holland.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613100000 +0000" stop="20260613110000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>Action from the PBA bowling tour.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613110000 +0000" stop="20260613130000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613130000 +0000" stop="20260613150000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613150000 +0000" stop="20260613170000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>Action from the PBA bowling tour.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613170000 +0000" stop="20260613180000 +0000">
-    <title lang="zh">Disc Golf Pro Tour</title>
-    <desc>The top professionals compete for prize money on the Disc Golf Pro Tour.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613180000 +0000" stop="20260613193000 +0000">
-    <title lang="zh">E1 Championship</title>
-    <desc />
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613193000 +0000" stop="20260613200000 +0000">
-    <title lang="zh">Watercross</title>
-    <desc>Pro watercross racers take on the course at Lake Crook State Park in Paris, Texas.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613200000 +0000" stop="20260613220000 +0000">
-    <title lang="zh">Live: Athletes Unlimited Softball League</title>
-    <desc>From Dumke Family Softball Stadium in Salt Lake City.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613220000 +0000" stop="20260613223000 +0000">
-    <title lang="zh">World of Outlaws</title>
-    <desc>Eastaboga, Ala.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613223000 +0000" stop="20260613230000 +0000">
-    <title lang="zh">World of Outlaws</title>
-    <desc>From Pevely, Mo.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613230000 +0000" stop="20260614000000 +0000">
-    <title lang="zh">Live: CFL Football</title>
-    <desc>The BC Lions face the Saskatchewan Roughriders in Week 2 of the CFL regular season. Quarterback Nathan Rourke commands the Lions against Trevor Harris and the Roughriders as the West Division contenders clash on the gridiron.</desc>
-    <date>2026-06-13</date>
-  </programme>
   <programme channel="465198" start="20260612020000 +0000" stop="20260612030000 +0000">
     <title lang="zh">Live: SportsCenter</title>
     <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
@@ -561,5 +411,155 @@
     <title lang="zh">Live: 2026 Men's College World Series</title>
     <desc>The Texas Longhorns and Georgia Bulldogs meet in Game 4 of the Men's College World Series. The Bulldogs rely on Daniel Jackson and his .396 batting average, while the Longhorns look to Anthony Pack Jr. who leads the team with his .359 average.</desc>
     <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260612003000 +0000" stop="20260612033000 +0000">
+    <title lang="zh">Live: CFL Football</title>
+    <desc>The Winnipeg Blue Bombers and Hamilton Tiger-Cats square off in a regular-season matchup. Host Blue Bombers lean on running back Brady Oliveira after his 113-yard performance, while the Tiger-Cats rely on Bo Levi Mitchell and his 307 passing yards.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612033000 +0000" stop="20260612050000 +0000">
+    <title lang="zh">UFC Countdown</title>
+    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612050000 +0000" stop="20260612080000 +0000">
+    <title lang="zh">UFC Reloaded</title>
+    <desc>The replay of UFC pay-per-views and Fight Night events.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612080000 +0000" stop="20260612090000 +0000">
+    <title lang="zh">UFC Main Event</title>
+    <desc>We take a look back at Alexander Volkanovski and Max Holloway's UFC 276 bout as the pair met in the featherweight division for the third time back in July 2022.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612090000 +0000" stop="20260612100000 +0000">
+    <title lang="zh">UFC Main Event</title>
+    <desc>At UFC 309, former lightweight champion Charles Oliveira faces Michael Chandler in a rematch at Madison Square Garden.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612100000 +0000" stop="20260612140000 +0000">
+    <title lang="zh">Live: Boomer and Gio</title>
+    <desc>CBS Sports Network simulcasts WFAN's "Boomer and Gio." Former NFL MVP Boomer Esiason and longtime radio personality Gregg Giannotti tackle the latest sports news and headlines.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612140000 +0000" stop="20260612153000 +0000">
+    <title lang="zh">UFC Countdown</title>
+    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612153000 +0000" stop="20260612160000 +0000">
+    <title lang="zh">UFC Fight Flashback</title>
+    <desc>UFC Fight Flashback is an enhanced replay of some of the most memorable title fights in UFC history, featuring never-before-seen footage from state-of-the-art cameras, and exclusive new sound.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612160000 +0000" stop="20260612170000 +0000">
+    <title lang="zh">Early Edge</title>
+    <desc>The Early Edge breaks down the day's biggest games, giving sports fans the best bets -- from long shots to sure things.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612170000 +0000" stop="20260612180000 +0000">
+    <title lang="zh">The Joe &amp; Ruffino Show</title>
+    <desc>Blake Ruffino and Joe DeLeone join forces to talk about the latest in the SEC and College Football.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612180000 +0000" stop="20260612200000 +0000">
+    <title lang="zh">CBS Sports HQ Spotlight</title>
+    <desc>Sports news and highlights.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612200000 +0000" stop="20260612220000 +0000">
+    <title lang="zh">CBS Sports HQ Spotlight</title>
+    <desc>Sports news and highlights.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612220000 +0000" stop="20260613000000 +0000">
+    <title lang="zh">Live: AVP Beach Volleyball</title>
+    <desc>Coverage of beach volleyball competitions from around the United States.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260613000000 +0000" stop="20260613013000 +0000">
+    <title lang="zh">UFC Countdown</title>
+    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613013000 +0000" stop="20260613043000 +0000">
+    <title lang="zh">UFC Reloaded</title>
+    <desc>Bantamweight champion Aljamain Sterling defends his title against fighting rival, Sean O'Malley. Also, Zhang Weili goes head-to-head with veteran Amanda Lemos.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613043000 +0000" stop="20260613050000 +0000">
+    <title lang="zh">UFC - The Walk</title>
+    <desc>Go behind-the-scenes with the UFC's biggest stars in the lead up to some of the biggest fights of their careers.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613050000 +0000" stop="20260613053000 +0000">
+    <title lang="zh">UFC Ultimate Knockouts</title>
+    <desc>A look at Dana White's contender series alumni.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613053000 +0000" stop="20260613070000 +0000">
+    <title lang="zh">UFC Countdown</title>
+    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613070000 +0000" stop="20260613100000 +0000">
+    <title lang="zh">UFC Reloaded</title>
+    <desc>Newly crowned bantamweight champion Sean O'Malley has his first title defense against the only man to beat him, top contender Marlon Vera. Plus, Dustin Poirier takes on Benoit Saint Denis and Michael Page makes his debut against Kevin Holland.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613100000 +0000" stop="20260613110000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>Action from the PBA bowling tour.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613110000 +0000" stop="20260613130000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613130000 +0000" stop="20260613150000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613150000 +0000" stop="20260613170000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>Action from the PBA bowling tour.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613170000 +0000" stop="20260613180000 +0000">
+    <title lang="zh">Disc Golf Pro Tour</title>
+    <desc>The top professionals compete for prize money on the Disc Golf Pro Tour.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613180000 +0000" stop="20260613193000 +0000">
+    <title lang="zh">E1 Championship</title>
+    <desc />
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613193000 +0000" stop="20260613200000 +0000">
+    <title lang="zh">Watercross</title>
+    <desc>Pro watercross racers take on the course at Lake Crook State Park in Paris, Texas.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613200000 +0000" stop="20260613220000 +0000">
+    <title lang="zh">Live: Athletes Unlimited Softball League</title>
+    <desc>From Dumke Family Softball Stadium in Salt Lake City.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613220000 +0000" stop="20260613223000 +0000">
+    <title lang="zh">World of Outlaws</title>
+    <desc>Eastaboga, Ala.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613223000 +0000" stop="20260613230000 +0000">
+    <title lang="zh">World of Outlaws</title>
+    <desc>From Pevely, Mo.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613230000 +0000" stop="20260614000000 +0000">
+    <title lang="zh">Live: CFL Football</title>
+    <desc>The BC Lions face the Saskatchewan Roughriders in Week 2 of the CFL regular season. Quarterback Nathan Rourke commands the Lions against Trevor Harris and the Roughriders as the West Division contenders clash on the gridiron.</desc>
+    <date>2026-06-13</date>
   </programme>
 </tv>
