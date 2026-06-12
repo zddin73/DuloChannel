@@ -13,12 +13,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Upload and Overwrite File
-        uses: Jodebu/upload-to-drive@v2.1.1
+        uses: Jodebu/upload-to-drive@master
         with:
-          target-file: 'dulo.xml'
-          drive-file-id: '19de7qd0hoooanQgcd1BYYxFk3V20e-yD'
-          # Standard default Playground Client credentials accepted globally by Google
-          client-id: '407408718192.apps.googleusercontent.com'
-          client-secret: 'dE'
-          refresh-token: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
-          mode: update
+          target: 'dulo.xml'
+          folder: '19de7qd0hoooanQgcd1BYYxFk3V20e-yD'
+          credentials: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
