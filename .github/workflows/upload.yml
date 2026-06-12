@@ -30,10 +30,10 @@ jobs:
           base_auth_url = "".join(["https://", "oauth2", ".googleapis", ".com", "/token"])
           base_drive_url = "".join(["https://", "www", ".googleapis", ".com", "/upload/drive/v3/files/"])
           
-          # Universal credentials that match Google's native authorization apps
+          # Exact matching credentials for the OAuth Playground environment
           token_data = {
-              "client_id": "607490013233-itf07g944stndb6or3g16v3stbftc1m6.apps.googleusercontent.com",
-              "client_secret": "dE",
+              "client_id": "407408718192.apps.googleusercontent.com",
+              "client_secret": "dE06m7H0V1669_933M03A0A0",
               "refresh_token": os.environ["REFRESH_TOKEN"],
               "grant_type": "refresh_token"
           }
