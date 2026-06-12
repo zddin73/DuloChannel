@@ -27,28 +27,37 @@ jobs:
           import os
           import requests
 
-          # 1. Exchange OAuth Playground Refresh Token for a temporary Access Token
+          # 1. Exchange OAuth Playground Refresh Token for an Access Token
           token_url = "https://googleapis.com"
+          
+          # Explicit headers matching Google's OAuth2 spec requirements
+          token_headers = {
+              "Content-Type": "application/x-www-form-urlencoded"
+          }
+          
           token_data = {
-              "client_id": "407408718192.apps.googleusercontent.com",
+              "client_id": "://googleusercontent.com",
               "client_secret": "dE",
               "refresh_token": os.environ["REFRESH_TOKEN"],
               "grant_type": "refresh_token"
           }
           
-          token_res = requests.post(token_url, data=token_data).json()
-          access_token = token_res.get("access_token")
+          # Request token conversion with explicit structural safety checks
+          response = requests.post(token_url, headers=token_headers, data=token_data)
           
-          if not access_token:
-              print("Error: Could not retrieve access token. Check your GitHub Secret.")
-              print("Response:", token_res)
+          if response.status_code != 200:
+              print(f"Auth Failed! Status Code: {response.status_code}")
+              print(f"Google Error Response: {response.text}")
               exit(1)
+              
+          token_res = response.json()
+          access_token = token_res.get("access_token")
 
           # 2. Stream and update the exact Google Drive File ID
           file_id = "19de7qd0hoooanQgcd1BYYxFk3V20e-yD"
           upload_url = f"https://googleapis.com{file_id}?uploadType=media&keepRevisionForever=false"
           
-          headers = {
+          upload_headers = {
               "Authorization": f"Bearer {access_token}",
               "Content-Type": "application/xml"
           }
@@ -56,7 +65,7 @@ jobs:
           with open("dulo.xml", "rb") as f:
               xml_data = f.read()
               
-          upload_res = requests.patch(upload_url, headers=headers, data=xml_data)
+          upload_res = requests.patch(upload_url, headers=upload_headers, data=xml_data)
           
           if upload_res.status_code == 200:
               print("Success! Google Drive file content replaced while keeping the same share link.")
