@@ -1,9 +1,9 @@
 name: Update XML on Google Drive
 
-on:
-  push:
-    paths:
-      - 'dulo.xml'
+# on:
+ # push:
+ #   paths:
+  #    - 'dulo.xml'
 
 jobs:
   upload_to_drive:
