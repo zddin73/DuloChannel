@@ -1,9 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="Dulo Channels Scraper">
+  <channel id="465373">
+    <display-name lang="US">ESPN2 HD</display-name>
+    <icon src="" />
+  </channel>
   <channel id="465198">
     <display-name lang="US">ESPN HD</display-name>
     <icon src="" />
   </channel>
+  <channel id="464937">
+    <display-name lang="US">CBS Sports Network HD</display-name>
+    <icon src="" />
+  </channel>
+  <programme channel="465373" start="20260611000000 +0000" stop="20260611020000 +0000">
+    <title lang="zh">Live: Athletes Unlimited Softball League</title>
+    <desc>From Smith Family Stadium in Durham, N.C.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611020000 +0000" stop="20260611030000 +0000">
+    <title lang="zh">SEC Storied</title>
+    <desc>At the 1983 College World Series, the championship culminated in a matchup between Roger Clemens' Texas Longhorns and the upstart Alabama Crimson Tide; a team of overachievers that included the best hitter in college baseball, Dave Magadan.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611030000 +0000" stop="20260611040000 +0000">
+    <title lang="zh">Men's &amp; Women's College Track and Field</title>
+    <desc>Action from men's and women's college track and field events.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611040000 +0000" stop="20260611050000 +0000">
+    <title lang="zh">NFL Live</title>
+    <desc>Host Laura Rutledge takes the helm of this weekday show featuring the likes of Marcus Spears, Dan Orlovsky, Mina Kimes, and Adam Schefter. The "NFL Live" crew entertains fans while offering all the latest news and analysis from across the NFL.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611050000 +0000" stop="20260611070000 +0000">
+    <title lang="zh">30 for 30</title>
+    <desc>Chronicling Reggie White's life from the highs of football stardom and stirring sermons to the lows of discrimination and heartbreak.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611070000 +0000" stop="20260611080000 +0000">
+    <title lang="zh">NFL Live</title>
+    <desc>Host Laura Rutledge takes the helm of this weekday show featuring the likes of Marcus Spears, Dan Orlovsky, Mina Kimes, and Adam Schefter. The "NFL Live" crew entertains fans while offering all the latest news and analysis from across the NFL.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611080000 +0000" stop="20260611090000 +0000">
+    <title lang="zh">SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611090000 +0000" stop="20260611100000 +0000">
+    <title lang="zh">SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611100000 +0000" stop="20260611120000 +0000">
+    <title lang="zh">Live: Unsportsmanlike with Evan, Canty and Michelle</title>
+    <desc>Start the day off right with Chris Canty, Evan Cohen and Michelle Smallmon providing an energizing and informative way to take on the day. Sports, life and laughter are what it's all about.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611120000 +0000" stop="20260611130000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611130000 +0000" stop="20260611140000 +0000">
+    <title lang="zh">Live: ESPN FC</title>
+    <desc>Highlights, news, reactions and opinions from the day in soccer.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611140000 +0000" stop="20260611160000 +0000">
+    <title lang="zh">Get Up</title>
+    <desc>ESPN's morning show features host Mike Greenberg with a rotating and diverse group of analysts opining about and analyzing the latest news from the world of sports. The two-hour, personality-driven show originates from Hudson Square in Lower Manhattan, a modern media hub for ESPN and The Walt Disney Company's New York-based teams. Greenberg, aka "Greeny," is formerly one-half of ESPN Radio's longt</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611160000 +0000" stop="20260611180000 +0000">
+    <title lang="zh">Live: First Take</title>
+    <desc>Stephen A. Smith hosts this weekday morning sports debate show. Smith provides his expert takes on the day's trending sports topics and under-the-radar news. They're regularly joined by veteran analysts and the top guests in sports and entertainment.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611180000 +0000" stop="20260611190000 +0000">
+    <title lang="zh">The Mina Kimes Show Featuring Lenny</title>
+    <desc>A popular NFL-focused podcast hosted by Mina Kimes, an NFL analyst at ESPN. The show features Kimes and her dog Lenny, and often includes guests discussing various NFL storylines and topics.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611190000 +0000" stop="20260611200000 +0000">
+    <title lang="zh">SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611200000 +0000" stop="20260611210000 +0000">
+    <title lang="zh">NBA Today</title>
+    <desc>In-depth, comprehensive daily coverage of all aspects of the NBA from expert analysts.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611210000 +0000" stop="20260611220000 +0000">
+    <title lang="zh">Live: ESPN FC</title>
+    <desc>Highlights, news, reactions and opinions from the day in soccer.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611220000 +0000" stop="20260611223000 +0000">
+    <title lang="zh">4th and Goal</title>
+    <desc>Chronicles the fight to build a Spring football league that can last, giving players a showcase for their NFL dreams.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611223000 +0000" stop="20260611230000 +0000">
+    <title lang="zh">4th and Goal</title>
+    <desc>Chronicles the fight to build a Spring football league that can last, giving players a showcase for their NFL dreams.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260611230000 +0000" stop="20260612000000 +0000">
+    <title lang="zh">The Point</title>
+    <desc>Featuring highlights, news, analysis, speed, skill and access to the stars, stories and personalities of the game; hosted by John Buccigross.</desc>
+    <date>2026-06-11</date>
+  </programme>
+  <programme channel="465373" start="20260612000000 +0000" stop="20260612040000 +0000">
+    <title lang="zh">Live: College Track and Field</title>
+    <desc>From Hayward Field in Eugene, Ore.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612040000 +0000" stop="20260612050000 +0000">
+    <title lang="zh">NFL Live</title>
+    <desc>Host Laura Rutledge takes the helm of this weekday show featuring the likes of Marcus Spears, Dan Orlovsky, Mina Kimes, and Adam Schefter. The "NFL Live" crew entertains fans while offering all the latest news and analysis from across the NFL.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612050000 +0000" stop="20260612060000 +0000">
+    <title lang="zh">Women's Sports Now</title>
+    <desc>Covering topics in women's sports; expert insights and insider coverage of the week's most newsworthy moments-from NCAA basketball, NWSL, the WNBA Draft, Wimbledon, and more; guests bring their unique POV to the week's discussion.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612060000 +0000" stop="20260612063000 +0000">
+    <title lang="zh">X Games Salt Lake City 2025</title>
+    <desc>Action from the 2025 X Games, held in Salt Lake City from June 27-29.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612063000 +0000" stop="20260612070000 +0000">
+    <title lang="zh">Pardon the Interruption</title>
+    <desc>The debate is the story in this fast-paced, half-hour series hosted by former Washington Post sportswriters Tony Kornheiser and Michael Wilbon. The pair engage in high-energy discussions, conduct interviews and often argue over topics not even related to sports. Other sports reporters appear as guests and offer opinions on the top stories of the day.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612070000 +0000" stop="20260612090000 +0000">
+    <title lang="zh">MLB Baseball</title>
+    <desc>Seattle and Baltimore play the finale of their 4-game series at Oriole Park at Camden Yards. Bryan Woo and Kyle Bradish are the expected starters in this clash. The last five games for both teams are balanced with two wins and three losses.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612090000 +0000" stop="20260612100000 +0000">
+    <title lang="zh">SportsCenter With Scott Van Pelt</title>
+    <desc>SVP's up at midnight and bringing his unique perspective on games people play to "SportsCenter" viewers. The hourlong, late-night show is driven by the host's self-deprecating wit and passion for sports, with featured elements, including Van Pelt's nightly "1 Big Thing" commentary and a weekly look back at the moments that drove bettors wild in "Bad Beats." The show also delivers what "SportsCente</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612100000 +0000" stop="20260612120000 +0000">
+    <title lang="zh">Live: Unsportsmanlike with Evan, Canty and Michelle</title>
+    <desc>Start the day off right with Chris Canty, Evan Cohen and Michelle Smallmon providing an energizing and informative way to take on the day. Sports, life and laughter are what it's all about.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612120000 +0000" stop="20260612130000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612130000 +0000" stop="20260612140000 +0000">
+    <title lang="zh">Live: ESPN FC</title>
+    <desc>Highlights, news, reactions and opinions from the day in soccer.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612140000 +0000" stop="20260612160000 +0000">
+    <title lang="zh">Live: Get Up</title>
+    <desc>ESPN's morning show features host Mike Greenberg with a rotating and diverse group of analysts opining about and analyzing the latest news from the world of sports. The two-hour, personality-driven show originates from Hudson Square in Lower Manhattan, a modern media hub for ESPN and The Walt Disney Company's New York-based teams. Greenberg, aka "Greeny," is formerly one-half of ESPN Radio's longt</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612160000 +0000" stop="20260612170000 +0000">
+    <title lang="zh">Live: First Take</title>
+    <desc>Stephen A. Smith hosts this weekday morning sports debate show. Smith provides his expert takes on the day's trending sports topics and under-the-radar news. They're regularly joined by veteran analysts and the top guests in sports and entertainment.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612170000 +0000" stop="20260612180000 +0000">
+    <title lang="zh">Live: NCAA Men's College World Series Studio</title>
+    <desc>College baseball experts help viewers stay informed about NCAA Men's College World Series action.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612180000 +0000" stop="20260612190000 +0000">
+    <title lang="zh">Live: SportsCenter</title>
+    <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612190000 +0000" stop="20260612200000 +0000">
+    <title lang="zh">Live: NBA Today</title>
+    <desc>In-depth, comprehensive daily coverage of all aspects of the NBA from expert analysts.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612200000 +0000" stop="20260612210000 +0000">
+    <title lang="zh">NFL Live</title>
+    <desc>Host Laura Rutledge takes the helm of this weekday show featuring the likes of Marcus Spears, Dan Orlovsky, Mina Kimes, and Adam Schefter. The "NFL Live" crew entertains fans while offering all the latest news and analysis from across the NFL.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612210000 +0000" stop="20260612220000 +0000">
+    <title lang="zh">NFL Live</title>
+    <desc>Host Laura Rutledge takes the helm of this weekday show featuring the likes of Marcus Spears, Dan Orlovsky, Mina Kimes, and Adam Schefter. The "NFL Live" crew entertains fans while offering all the latest news and analysis from across the NFL.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612220000 +0000" stop="20260612223000 +0000">
+    <title lang="zh">Pardon the Interruption</title>
+    <desc>The debate is the story in this fast-paced, half-hour series hosted by former Washington Post sportswriters Tony Kornheiser and Michael Wilbon. The pair engage in high-energy discussions, conduct interviews and often argue over topics not even related to sports. Other sports reporters appear as guests and offer opinions on the top stories of the day.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612223000 +0000" stop="20260612230000 +0000">
+    <title lang="zh">Live: NCAA Men's College World Series Studio</title>
+    <desc>College baseball experts help viewers stay informed about NCAA Men's College World Series action.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260612230000 +0000" stop="20260613000000 +0000">
+    <title lang="zh">Fútbol Americas</title>
+    <desc>A bi-weekly soccer debate show hosted by Sebastian Salazar and Herculez Gomez with a focus on the young promising generations of the USMNT and EL TRI from both the club and country perspective.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="465373" start="20260613000000 +0000" stop="20260614000000 +0000">
+    <title lang="zh">Live: College Track and Field</title>
+    <desc>From Hayward Field in Eugene, Ore.</desc>
+    <date>2026-06-13</date>
+  </programme>
   <programme channel="465198" start="20260611000000 +0000" stop="20260611030000 +0000">
     <title lang="zh">Live: Men's &amp; Women's College Track and Field</title>
     <desc>Action from men's and women's college track and field events.</desc>
@@ -183,5 +396,155 @@
     <title lang="zh">Live: 2026 Men's College World Series</title>
     <desc>The Ole Miss Rebels battle the North Carolina Tar Heels in a Men's College World Series game. Hunter Elliott, the strikeout leader for Ole Miss, faces North Carolina home run leader Cooper Nicholson in Omaha, Nebraska.</desc>
     <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612003000 +0000" stop="20260612033000 +0000">
+    <title lang="zh">Live: CFL Football</title>
+    <desc>The Winnipeg Blue Bombers and Hamilton Tiger-Cats square off in a regular-season matchup. Host Blue Bombers lean on running back Brady Oliveira after his 113-yard performance, while the Tiger-Cats rely on Bo Levi Mitchell and his 307 passing yards.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612033000 +0000" stop="20260612050000 +0000">
+    <title lang="zh">UFC Countdown</title>
+    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612050000 +0000" stop="20260612080000 +0000">
+    <title lang="zh">UFC Reloaded</title>
+    <desc>The replay of UFC pay-per-views and Fight Night events.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612080000 +0000" stop="20260612090000 +0000">
+    <title lang="zh">UFC Main Event</title>
+    <desc>We take a look back at Alexander Volkanovski and Max Holloway's UFC 276 bout as the pair met in the featherweight division for the third time back in July 2022.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612090000 +0000" stop="20260612100000 +0000">
+    <title lang="zh">UFC Main Event</title>
+    <desc>At UFC 309, former lightweight champion Charles Oliveira faces Michael Chandler in a rematch at Madison Square Garden.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612100000 +0000" stop="20260612140000 +0000">
+    <title lang="zh">Live: Boomer and Gio</title>
+    <desc>CBS Sports Network simulcasts WFAN's "Boomer and Gio." Former NFL MVP Boomer Esiason and longtime radio personality Gregg Giannotti tackle the latest sports news and headlines.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612140000 +0000" stop="20260612153000 +0000">
+    <title lang="zh">UFC Countdown</title>
+    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612153000 +0000" stop="20260612160000 +0000">
+    <title lang="zh">UFC Fight Flashback</title>
+    <desc>UFC Fight Flashback is an enhanced replay of some of the most memorable title fights in UFC history, featuring never-before-seen footage from state-of-the-art cameras, and exclusive new sound.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612160000 +0000" stop="20260612170000 +0000">
+    <title lang="zh">Early Edge</title>
+    <desc>The Early Edge breaks down the day's biggest games, giving sports fans the best bets -- from long shots to sure things.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612170000 +0000" stop="20260612180000 +0000">
+    <title lang="zh">The Joe &amp; Ruffino Show</title>
+    <desc>Blake Ruffino and Joe DeLeone join forces to talk about the latest in the SEC and College Football.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612180000 +0000" stop="20260612200000 +0000">
+    <title lang="zh">CBS Sports HQ Spotlight</title>
+    <desc>Sports news and highlights.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612200000 +0000" stop="20260612220000 +0000">
+    <title lang="zh">CBS Sports HQ Spotlight</title>
+    <desc>Sports news and highlights.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260612220000 +0000" stop="20260613000000 +0000">
+    <title lang="zh">Live: AVP Beach Volleyball</title>
+    <desc>Coverage of beach volleyball competitions from around the United States.</desc>
+    <date>2026-06-12</date>
+  </programme>
+  <programme channel="464937" start="20260613000000 +0000" stop="20260613013000 +0000">
+    <title lang="zh">UFC Countdown</title>
+    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613013000 +0000" stop="20260613043000 +0000">
+    <title lang="zh">UFC Reloaded</title>
+    <desc>Bantamweight champion Aljamain Sterling defends his title against fighting rival, Sean O'Malley. Also, Zhang Weili goes head-to-head with veteran Amanda Lemos.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613043000 +0000" stop="20260613050000 +0000">
+    <title lang="zh">UFC - The Walk</title>
+    <desc>Go behind-the-scenes with the UFC's biggest stars in the lead up to some of the biggest fights of their careers.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613050000 +0000" stop="20260613053000 +0000">
+    <title lang="zh">UFC Ultimate Knockouts</title>
+    <desc>A look at Dana White's contender series alumni.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613053000 +0000" stop="20260613070000 +0000">
+    <title lang="zh">UFC Countdown</title>
+    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613070000 +0000" stop="20260613100000 +0000">
+    <title lang="zh">UFC Reloaded</title>
+    <desc>Newly crowned bantamweight champion Sean O'Malley has his first title defense against the only man to beat him, top contender Marlon Vera. Plus, Dustin Poirier takes on Benoit Saint Denis and Michael Page makes his debut against Kevin Holland.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613100000 +0000" stop="20260613110000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>Action from the PBA bowling tour.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613110000 +0000" stop="20260613130000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613130000 +0000" stop="20260613150000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613150000 +0000" stop="20260613170000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>Action from the PBA bowling tour.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613170000 +0000" stop="20260613180000 +0000">
+    <title lang="zh">Disc Golf Pro Tour</title>
+    <desc>The top professionals compete for prize money on the Disc Golf Pro Tour.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613180000 +0000" stop="20260613193000 +0000">
+    <title lang="zh">E1 Championship</title>
+    <desc />
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613193000 +0000" stop="20260613200000 +0000">
+    <title lang="zh">Watercross</title>
+    <desc>Pro watercross racers take on the course at Lake Crook State Park in Paris, Texas.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613200000 +0000" stop="20260613220000 +0000">
+    <title lang="zh">Live: Athletes Unlimited Softball League</title>
+    <desc>From Dumke Family Softball Stadium in Salt Lake City.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613220000 +0000" stop="20260613223000 +0000">
+    <title lang="zh">World of Outlaws</title>
+    <desc>Eastaboga, Ala.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613223000 +0000" stop="20260613230000 +0000">
+    <title lang="zh">World of Outlaws</title>
+    <desc>From Pevely, Mo.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613230000 +0000" stop="20260614000000 +0000">
+    <title lang="zh">Live: CFL Football</title>
+    <desc>The BC Lions face the Saskatchewan Roughriders in Week 2 of the CFL regular season. Quarterback Nathan Rourke commands the Lions against Trevor Harris and the Roughriders as the West Division contenders clash on the gridiron.</desc>
+    <date>2026-06-13</date>
   </programme>
 </tv>
