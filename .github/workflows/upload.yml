@@ -12,30 +12,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Fetch Fresh Access Token
-        id: auth
-        run: |
-          # Uses Google's standard open client ID parameters to accept playground tokens
-          RESPONSE=$(curl -s -X POST "https://googleapis.com" \
-            -d "client_id=://googleusercontent.com" \
-            -d "client_secret=dE" \
-            -d "refresh_token=${{ secrets.GOOGLE_REFRESH_TOKEN }}" \
-            -d "grant_type=refresh_token")
-          
-          ACCESS_TOKEN=$(echo "$RESPONSE" | grep -oP '"access_token": "\K[^"]+')
-          
-          if [ -z "$ACCESS_TOKEN" ]; then
-            echo "Error: Failed to retrieve access token. Check your GOOGLE_REFRESH_TOKEN secret."
-            echo "Google Response: $RESPONSE"
-            exit 1
-          fi
-          
-          echo "::add-mask::$ACCESS_TOKEN"
-          echo "token=$ACCESS_TOKEN" >> $GITHUB_OUTPUT
-
-      - name: Overwrite Google Drive File (Keep ID)
-        run: |
-          curl -X PATCH "https://googleapis.com" \
-            -H "Authorization: Bearer ${{ steps.auth.outputs.token }}" \
-            -H "Content-Type: application/xml" \
-            --data-binary "@dulo.xml"
+      - name: Upload and Overwrite File
+        uses: Jodebu/upload-to-drive@v2.1.1
+        with:
+          target-file: 'dulo.xml'
+          drive-file-id: '19de7qd0hoooanQgcd1BYYxFk3V20e-yD'
+          # Standard default Playground Client credentials accepted globally by Google
+          client-id: '407408718192.apps.googleusercontent.com'
+          client-secret: 'dE'
+          refresh-token: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          mode: update
