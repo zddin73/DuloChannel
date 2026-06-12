@@ -12,9 +12,56 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Upload and Overwrite File
-        uses: Jodebu/upload-to-drive@master
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          target: 'dulo.xml'
-          folder: '19de7qd0hoooanQgcd1BYYxFk3V20e-yD'
-          credentials: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Upload and Overwrite File via Python
+        env:
+          REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+        run: |
+          import os
+          import requests
+
+          # 1. Exchange OAuth Playground Refresh Token for a temporary Access Token
+          token_url = "https://googleapis.com"
+          token_data = {
+              "client_id": "407408718192.apps.googleusercontent.com",
+              "client_secret": "dE",
+              "refresh_token": os.environ["REFRESH_TOKEN"],
+              "grant_type": "refresh_token"
+          }
+          
+          token_res = requests.post(token_url, data=token_data).json()
+          access_token = token_res.get("access_token")
+          
+          if not access_token:
+              print("Error: Could not retrieve access token. Check your GitHub Secret.")
+              print("Response:", token_res)
+              exit(1)
+
+          # 2. Stream and update the exact Google Drive File ID
+          file_id = "19de7qd0hoooanQgcd1BYYxFk3V20e-yD"
+          upload_url = f"https://googleapis.com{file_id}?uploadType=media&keepRevisionForever=false"
+          
+          headers = {
+              "Authorization": f"Bearer {access_token}",
+              "Content-Type": "application/xml"
+          }
+          
+          with open("dulo.xml", "rb") as f:
+              xml_data = f.read()
+              
+          upload_res = requests.patch(upload_url, headers=headers, data=xml_data)
+          
+          if upload_res.status_code == 200:
+              print("Success! Google Drive file content replaced while keeping the same share link.")
+          else:
+              print(f"Upload failed with status code {upload_res.status_code}")
+              print("Response:", upload_res.text)
+              exit(1)
+        shell: python
