@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="Dulo Channels Scraper">
-  <channel id="465373">
-    <display-name lang="US">ESPN2 HD</display-name>
-    <icon src="" />
-  </channel>
   <channel id="465198">
     <display-name lang="US">ESPN HD</display-name>
     <icon src="" />
@@ -12,241 +8,10 @@
     <display-name lang="US">CBS Sports Network HD</display-name>
     <icon src="" />
   </channel>
-  <programme channel="465373" start="20260613000000 +0000" stop="20260613023000 +0000">
-    <title lang="zh">Live: College Track and Field</title>
-    <desc>From Hayward Field in Eugene, Ore.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613023000 +0000" stop="20260613030000 +0000">
-    <title lang="zh">E60</title>
-    <desc>A year in the life of transgender high school track and field sprinter Matt Dawkins, an athlete just trying to be himself.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613030000 +0000" stop="20260613040000 +0000">
-    <title lang="zh">Live: ESPN FC</title>
-    <desc>Highlights, news, reactions and opinions from the day in soccer.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613040000 +0000" stop="20260613050000 +0000">
-    <title lang="zh">NFL Live</title>
-    <desc>Host Laura Rutledge takes the helm of this weekday show featuring the likes of Marcus Spears, Dan Orlovsky, Mina Kimes, and Adam Schefter. The "NFL Live" crew entertains fans while offering all the latest news and analysis from across the NFL.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613050000 +0000" stop="20260613060000 +0000">
-    <title lang="zh">Believers: Boston Red Sox</title>
-    <desc>Red Sox fans share decades of losses and heartbreak until 2004, when their team faces the Yankees in the ALCS; one moment changes everything.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613060000 +0000" stop="20260613070000 +0000">
-    <title lang="zh">Believers: Boston Red Sox</title>
-    <desc>Boston's complex history of progress and prejudice finds reflection in its baseball team; the 2004 Red Sox, facing elimination, begin dismantling Yankees' dominance, uniting fans and challenging an alleged curse.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613070000 +0000" stop="20260613080000 +0000">
-    <title lang="zh">Believers: Boston Red Sox</title>
-    <desc>Red Sox fans trade generations of curse-driven misery for triumph; their identity shifts from suffering to success, leaving them to navigate unfamiliar territory where winning is expected.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613080000 +0000" stop="20260613090000 +0000">
-    <title lang="zh">30 for 30</title>
-    <desc>Filmmaker Barbara Kopple examines the legacy of baseball owner George M. Steinbrenner, including the building of a new Yankee Stadium and the transition of ownership to his heirs, led by his younger son, Hal.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613090000 +0000" stop="20260613100000 +0000">
-    <title lang="zh">30 for 30</title>
-    <desc>The San Francisco area is rocked by an earthquake shortly before the start of Game 3 of the 1989 World Series.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613100000 +0000" stop="20260613103000 +0000">
-    <title lang="zh">Flats Class</title>
-    <desc>Learning the fundamentals of flats fishing and the advanced tactics used by proven tournament anglers.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613103000 +0000" stop="20260613110000 +0000">
-    <title lang="zh">George Poveromo's World of Saltwater Fishing</title>
-    <desc>George Poveromo has a go at the redfish, sea trout and other game fish found within the Charleston Harbor complex.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613110000 +0000" stop="20260613113000 +0000">
-    <title lang="zh">Goliath Fishing</title>
-    <desc>Captain James Marko chases fish all around south Florida.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613113000 +0000" stop="20260613120000 +0000">
-    <title lang="zh">Motorhead Garage</title>
-    <desc>Dave Dobson hosts TV's only automotive aftermarket showcase, featuring the latest products to make vehicles look cooler, perform better, or last longer.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613120000 +0000" stop="20260613123000 +0000">
-    <title lang="zh">Last Train to North America</title>
-    <desc>The journey begins aboard a train to Toronto as the series sets the stage for a continent preparing to host the world.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613123000 +0000" stop="20260613130000 +0000">
-    <title lang="zh">Last Train to North America</title>
-    <desc>The series travels to the United States with stops in Boston and New York, exploring two historic sports cities preparing for the global spotlight.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613130000 +0000" stop="20260613140000 +0000">
-    <title lang="zh">Live: ESPN FC</title>
-    <desc>Highlights, news, reactions and opinions from the day in soccer.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613140000 +0000" stop="20260613160000 +0000">
-    <title lang="zh">Banana Ball World Tour</title>
-    <desc>From the ESPN Wide World of Sports Complex in Bay Lake, Florida.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613160000 +0000" stop="20260613180000 +0000">
-    <title lang="zh">AKC National Agility Championship</title>
-    <desc />
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613180000 +0000" stop="20260613200000 +0000">
-    <title lang="zh">Live: Athletes Unlimited Softball League</title>
-    <desc>From The Stadium at the Parkway Bank Sports Complex in Rosemont, Ill.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613200000 +0000" stop="20260613220000 +0000">
-    <title lang="zh">Cornhole</title>
-    <desc>From Will Rogers Memorial Center in Fort Worth, Texas.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613220000 +0000" stop="20260613233000 +0000">
-    <title lang="zh">SEC Storied</title>
-    <desc>Rafael Palmeiro and Will Clark, teammates for the 1985 Mississippi State Bulldogs, nearly propelled the team to a College World Series title.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260613233000 +0000" stop="20260614000000 +0000">
-    <title lang="zh">Live: NCAA Men's College World Series Studio</title>
-    <desc>College baseball experts help viewers stay informed about NCAA Men's College World Series action.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="465373" start="20260614000000 +0000" stop="20260614023000 +0000">
-    <title lang="zh">Live: College Track and Field</title>
-    <desc>From Hayward Field in Eugene, Ore.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614023000 +0000" stop="20260614033000 +0000">
-    <title lang="zh">SEC Storied</title>
-    <desc>Lolo Jones' story goes beyond the track and field community and consists of heartbreak, adversity and hope.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614033000 +0000" stop="20260614040000 +0000">
-    <title lang="zh">SEC Storied</title>
-    <desc>Warren Morris hit the most famous home run in college baseball history - a two-run walk-off shot which won the national championship for the LSU Tigers in 1996.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614040000 +0000" stop="20260614050000 +0000">
-    <title lang="zh">30 for 30</title>
-    <desc>The story of the 1986 Mets, one of the most dominating, infamous, and magical teams of all time. The series traces the team's origins back to the late 1970s. The story of their triumph may have been magical, but the tale of their fall was inevitable.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614050000 +0000" stop="20260614060000 +0000">
-    <title lang="zh">30 for 30</title>
-    <desc>The story of the 1986 Mets, one of the most dominating, infamous, and magical teams of all time. The series traces the team's origins back to the late 1970s. The story of their triumph may have been magical, but the tale of their fall was inevitable.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614060000 +0000" stop="20260614070000 +0000">
-    <title lang="zh">30 for 30</title>
-    <desc>The story of the 1986 Mets, one of the most dominating, infamous, and magical teams of all time. The series traces the team's origins back to the late 1970s. The story of their triumph may have been magical, but the tale of their fall was inevitable.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614070000 +0000" stop="20260614080000 +0000">
-    <title lang="zh">30 for 30</title>
-    <desc>The story of the 1986 Mets, one of the most dominating, infamous, and magical teams of all time. The series traces the team's origins back to the late 1970s. The story of their triumph may have been magical, but the tale of their fall was inevitable.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614080000 +0000" stop="20260614090000 +0000">
-    <title lang="zh">SportsCenter With Scott Van Pelt</title>
-    <desc>SVP's up at midnight and bringing his unique perspective on games people play to "SportsCenter" viewers. The hourlong, late-night show is driven by the host's self-deprecating wit and passion for sports, with featured elements, including Van Pelt's nightly "1 Big Thing" commentary and a weekly look back at the moments that drove bettors wild in "Bad Beats." The show also delivers what "SportsCente</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614090000 +0000" stop="20260614100000 +0000">
-    <title lang="zh">SportsCenter With Scott Van Pelt</title>
-    <desc>SVP's up at midnight and bringing his unique perspective on games people play to "SportsCenter" viewers. The hourlong, late-night show is driven by the host's self-deprecating wit and passion for sports, with featured elements, including Van Pelt's nightly "1 Big Thing" commentary and a weekly look back at the moments that drove bettors wild in "Bad Beats." The show also delivers what "SportsCente</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614100000 +0000" stop="20260614103000 +0000">
-    <title lang="zh">The Fish Guyz</title>
-    <desc>Capt. Lain and EB III start the day strong in the Contender Bay Boat with giant blackfin tuna, then pick up Joe Mallazzo to chase sailfish. The Guyz stop by Plant a Million Corals for an update. Chef Cat uses the fresh tuna to make amazing sushi rolls.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614103000 +0000" stop="20260614110000 +0000">
-    <title lang="zh">Last Train to North America</title>
-    <desc>The first stop in Mexico brings viewers to one of the world's soccer capitals and a city preparing for another World Cup moment.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614110000 +0000" stop="20260614113000 +0000">
-    <title lang="zh">Last Train to North America</title>
-    <desc>The journey continues across Mexico with visits to Guadalajara and Monterrey, showcasing distinct traditions and deep-rooted soccer culture.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614113000 +0000" stop="20260614120000 +0000">
-    <title lang="zh">Last Train to North America</title>
-    <desc>Returning to the United States, the series explores three key host cities at the heart of America's growing soccer landscape.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614120000 +0000" stop="20260614123000 +0000">
-    <title lang="zh">Last Train to North America</title>
-    <desc>The trip heads west to Los Angeles and San Francisco, where innovation, diversity and sports culture shape the road to 2026.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614123000 +0000" stop="20260614130000 +0000">
-    <title lang="zh">Last Train to North America</title>
-    <desc>The final episode concludes in Seattle and Vancouver, celebrating the final stops of a cross-continental journey united by soccer.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614130000 +0000" stop="20260614140000 +0000">
-    <title lang="zh">Live: ESPN FC</title>
-    <desc>Highlights, news, reactions and opinions from the day in soccer.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614140000 +0000" stop="20260614150000 +0000">
-    <title lang="zh">In the Arena: Serena Williams</title>
-    <desc>During the Italian Open, love is in the air when Serena meets Alexis Ohanian, co-founder of Reddit. Shortly after getting engaged, Serena heads into the 2017 Australian Open with the hopes of winning her 23rd Grand Slam, all while carrying a secret.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614150000 +0000" stop="20260614160000 +0000">
-    <title lang="zh">In the Arena: Serena Williams</title>
-    <desc>As she begins a new chapter of her life, Serena enters the end of her career. After giving birth to her daughter, Olympia, Serena returns to the court before announcing her retirement from the game of tennis ahead of the 2022 US Open.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614160000 +0000" stop="20260614180000 +0000">
-    <title lang="zh">Live: Athletes Unlimited Softball League</title>
-    <desc>From The Stadium at the Parkway Bank Sports Complex in Rosemont, Ill.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614180000 +0000" stop="20260614200000 +0000">
-    <title lang="zh">AKC Events</title>
-    <desc>Assorted canine events run by the American Kennel Club.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614200000 +0000" stop="20260614210000 +0000">
-    <title lang="zh">WSL: Inside Pro Surfing</title>
-    <desc>WSL: Inside Pro Surfing - 2026 Bonsoy Gold Coast Pro.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614210000 +0000" stop="20260614220000 +0000">
-    <title lang="zh">E60</title>
-    <desc>Explores the Thunder's relationship with Oklahoma City.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614220000 +0000" stop="20260614230000 +0000">
-    <title lang="zh">30 for 30</title>
-    <desc>Filmmaker Brett Morgen chronicles events: Arnold Palmer plays his last round at a U.S. Open, the FIFA World Cup kicks off in Chicago, the Rangers celebrate on Broadway, O.J. Simpson leads America on a slow speed chase in a white Ford Bronco.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260614230000 +0000" stop="20260615000000 +0000">
-    <title lang="zh">Live: The Point</title>
-    <desc>Featuring highlights, news, analysis, speed, skill and access to the stars, stories and personalities of the game; hosted by John Buccigross.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="465373" start="20260615000000 +0000" stop="20260616000000 +0000">
-    <title lang="zh">Banana Ball World Tour</title>
-    <desc>From Memorial Stadium in Lincoln, Neb.</desc>
-    <date>2026-06-15</date>
-  </programme>
+  <channel id="465373">
+    <display-name lang="US">ESPN2 HD</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="465198" start="20260613020000 +0000" stop="20260613030000 +0000">
     <title lang="zh">Live: SportsCenter</title>
     <desc>The latest news, highlights and inside information from every corner of the sports world is presented each day on "SportsCenter," ESPN's first-ever program when the network debuted in September of 1979. The flagship series airs an evening edition and a brand new midnight show each weekday before the stage is cleared for a live "SportsCenter" morning block that emphasizes fast-paced, highlights-dri</desc>
@@ -600,6 +365,241 @@
   <programme channel="464937" start="20260615000000 +0000" stop="20260616000000 +0000">
     <title lang="zh">PBA Bowling</title>
     <desc>From Thunderbowl Lanes in Allen Park, Mich.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="465373" start="20260613000000 +0000" stop="20260613023000 +0000">
+    <title lang="zh">Live: College Track and Field</title>
+    <desc>From Hayward Field in Eugene, Ore.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613023000 +0000" stop="20260613030000 +0000">
+    <title lang="zh">E60</title>
+    <desc>A year in the life of transgender high school track and field sprinter Matt Dawkins, an athlete just trying to be himself.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613030000 +0000" stop="20260613040000 +0000">
+    <title lang="zh">Live: ESPN FC</title>
+    <desc>Highlights, news, reactions and opinions from the day in soccer.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613040000 +0000" stop="20260613050000 +0000">
+    <title lang="zh">NFL Live</title>
+    <desc>Host Laura Rutledge takes the helm of this weekday show featuring the likes of Marcus Spears, Dan Orlovsky, Mina Kimes, and Adam Schefter. The "NFL Live" crew entertains fans while offering all the latest news and analysis from across the NFL.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613050000 +0000" stop="20260613060000 +0000">
+    <title lang="zh">Believers: Boston Red Sox</title>
+    <desc>Red Sox fans share decades of losses and heartbreak until 2004, when their team faces the Yankees in the ALCS; one moment changes everything.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613060000 +0000" stop="20260613070000 +0000">
+    <title lang="zh">Believers: Boston Red Sox</title>
+    <desc>Boston's complex history of progress and prejudice finds reflection in its baseball team; the 2004 Red Sox, facing elimination, begin dismantling Yankees' dominance, uniting fans and challenging an alleged curse.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613070000 +0000" stop="20260613080000 +0000">
+    <title lang="zh">Believers: Boston Red Sox</title>
+    <desc>Red Sox fans trade generations of curse-driven misery for triumph; their identity shifts from suffering to success, leaving them to navigate unfamiliar territory where winning is expected.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613080000 +0000" stop="20260613090000 +0000">
+    <title lang="zh">30 for 30</title>
+    <desc>Filmmaker Barbara Kopple examines the legacy of baseball owner George M. Steinbrenner, including the building of a new Yankee Stadium and the transition of ownership to his heirs, led by his younger son, Hal.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613090000 +0000" stop="20260613100000 +0000">
+    <title lang="zh">30 for 30</title>
+    <desc>The San Francisco area is rocked by an earthquake shortly before the start of Game 3 of the 1989 World Series.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613100000 +0000" stop="20260613103000 +0000">
+    <title lang="zh">Flats Class</title>
+    <desc>Learning the fundamentals of flats fishing and the advanced tactics used by proven tournament anglers.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613103000 +0000" stop="20260613110000 +0000">
+    <title lang="zh">George Poveromo's World of Saltwater Fishing</title>
+    <desc>George Poveromo has a go at the redfish, sea trout and other game fish found within the Charleston Harbor complex.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613110000 +0000" stop="20260613113000 +0000">
+    <title lang="zh">Goliath Fishing</title>
+    <desc>Captain James Marko chases fish all around south Florida.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613113000 +0000" stop="20260613120000 +0000">
+    <title lang="zh">Motorhead Garage</title>
+    <desc>Dave Dobson hosts TV's only automotive aftermarket showcase, featuring the latest products to make vehicles look cooler, perform better, or last longer.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613120000 +0000" stop="20260613123000 +0000">
+    <title lang="zh">Last Train to North America</title>
+    <desc>The journey begins aboard a train to Toronto as the series sets the stage for a continent preparing to host the world.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613123000 +0000" stop="20260613130000 +0000">
+    <title lang="zh">Last Train to North America</title>
+    <desc>The series travels to the United States with stops in Boston and New York, exploring two historic sports cities preparing for the global spotlight.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613130000 +0000" stop="20260613140000 +0000">
+    <title lang="zh">Live: ESPN FC</title>
+    <desc>Highlights, news, reactions and opinions from the day in soccer.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613140000 +0000" stop="20260613160000 +0000">
+    <title lang="zh">Banana Ball World Tour</title>
+    <desc>From the ESPN Wide World of Sports Complex in Bay Lake, Florida.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613160000 +0000" stop="20260613180000 +0000">
+    <title lang="zh">AKC National Agility Championship</title>
+    <desc />
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613180000 +0000" stop="20260613200000 +0000">
+    <title lang="zh">Live: Athletes Unlimited Softball League</title>
+    <desc>From The Stadium at the Parkway Bank Sports Complex in Rosemont, Ill.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613200000 +0000" stop="20260613220000 +0000">
+    <title lang="zh">Cornhole</title>
+    <desc>From Will Rogers Memorial Center in Fort Worth, Texas.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613220000 +0000" stop="20260613233000 +0000">
+    <title lang="zh">SEC Storied</title>
+    <desc>Rafael Palmeiro and Will Clark, teammates for the 1985 Mississippi State Bulldogs, nearly propelled the team to a College World Series title.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260613233000 +0000" stop="20260614000000 +0000">
+    <title lang="zh">Live: NCAA Men's College World Series Studio</title>
+    <desc>College baseball experts help viewers stay informed about NCAA Men's College World Series action.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="465373" start="20260614000000 +0000" stop="20260614023000 +0000">
+    <title lang="zh">Live: College Track and Field</title>
+    <desc>From Hayward Field in Eugene, Ore.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614023000 +0000" stop="20260614033000 +0000">
+    <title lang="zh">SEC Storied</title>
+    <desc>Lolo Jones' story goes beyond the track and field community and consists of heartbreak, adversity and hope.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614033000 +0000" stop="20260614040000 +0000">
+    <title lang="zh">SEC Storied</title>
+    <desc>Warren Morris hit the most famous home run in college baseball history - a two-run walk-off shot which won the national championship for the LSU Tigers in 1996.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614040000 +0000" stop="20260614050000 +0000">
+    <title lang="zh">30 for 30</title>
+    <desc>The story of the 1986 Mets, one of the most dominating, infamous, and magical teams of all time. The series traces the team's origins back to the late 1970s. The story of their triumph may have been magical, but the tale of their fall was inevitable.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614050000 +0000" stop="20260614060000 +0000">
+    <title lang="zh">30 for 30</title>
+    <desc>The story of the 1986 Mets, one of the most dominating, infamous, and magical teams of all time. The series traces the team's origins back to the late 1970s. The story of their triumph may have been magical, but the tale of their fall was inevitable.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614060000 +0000" stop="20260614070000 +0000">
+    <title lang="zh">30 for 30</title>
+    <desc>The story of the 1986 Mets, one of the most dominating, infamous, and magical teams of all time. The series traces the team's origins back to the late 1970s. The story of their triumph may have been magical, but the tale of their fall was inevitable.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614070000 +0000" stop="20260614080000 +0000">
+    <title lang="zh">30 for 30</title>
+    <desc>The story of the 1986 Mets, one of the most dominating, infamous, and magical teams of all time. The series traces the team's origins back to the late 1970s. The story of their triumph may have been magical, but the tale of their fall was inevitable.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614080000 +0000" stop="20260614090000 +0000">
+    <title lang="zh">SportsCenter With Scott Van Pelt</title>
+    <desc>SVP's up at midnight and bringing his unique perspective on games people play to "SportsCenter" viewers. The hourlong, late-night show is driven by the host's self-deprecating wit and passion for sports, with featured elements, including Van Pelt's nightly "1 Big Thing" commentary and a weekly look back at the moments that drove bettors wild in "Bad Beats." The show also delivers what "SportsCente</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614090000 +0000" stop="20260614100000 +0000">
+    <title lang="zh">SportsCenter With Scott Van Pelt</title>
+    <desc>SVP's up at midnight and bringing his unique perspective on games people play to "SportsCenter" viewers. The hourlong, late-night show is driven by the host's self-deprecating wit and passion for sports, with featured elements, including Van Pelt's nightly "1 Big Thing" commentary and a weekly look back at the moments that drove bettors wild in "Bad Beats." The show also delivers what "SportsCente</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614100000 +0000" stop="20260614103000 +0000">
+    <title lang="zh">The Fish Guyz</title>
+    <desc>Capt. Lain and EB III start the day strong in the Contender Bay Boat with giant blackfin tuna, then pick up Joe Mallazzo to chase sailfish. The Guyz stop by Plant a Million Corals for an update. Chef Cat uses the fresh tuna to make amazing sushi rolls.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614103000 +0000" stop="20260614110000 +0000">
+    <title lang="zh">Last Train to North America</title>
+    <desc>The first stop in Mexico brings viewers to one of the world's soccer capitals and a city preparing for another World Cup moment.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614110000 +0000" stop="20260614113000 +0000">
+    <title lang="zh">Last Train to North America</title>
+    <desc>The journey continues across Mexico with visits to Guadalajara and Monterrey, showcasing distinct traditions and deep-rooted soccer culture.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614113000 +0000" stop="20260614120000 +0000">
+    <title lang="zh">Last Train to North America</title>
+    <desc>Returning to the United States, the series explores three key host cities at the heart of America's growing soccer landscape.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614120000 +0000" stop="20260614123000 +0000">
+    <title lang="zh">Last Train to North America</title>
+    <desc>The trip heads west to Los Angeles and San Francisco, where innovation, diversity and sports culture shape the road to 2026.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614123000 +0000" stop="20260614130000 +0000">
+    <title lang="zh">Last Train to North America</title>
+    <desc>The final episode concludes in Seattle and Vancouver, celebrating the final stops of a cross-continental journey united by soccer.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614130000 +0000" stop="20260614140000 +0000">
+    <title lang="zh">Live: ESPN FC</title>
+    <desc>Highlights, news, reactions and opinions from the day in soccer.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614140000 +0000" stop="20260614150000 +0000">
+    <title lang="zh">In the Arena: Serena Williams</title>
+    <desc>During the Italian Open, love is in the air when Serena meets Alexis Ohanian, co-founder of Reddit. Shortly after getting engaged, Serena heads into the 2017 Australian Open with the hopes of winning her 23rd Grand Slam, all while carrying a secret.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614150000 +0000" stop="20260614160000 +0000">
+    <title lang="zh">In the Arena: Serena Williams</title>
+    <desc>As she begins a new chapter of her life, Serena enters the end of her career. After giving birth to her daughter, Olympia, Serena returns to the court before announcing her retirement from the game of tennis ahead of the 2022 US Open.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614160000 +0000" stop="20260614180000 +0000">
+    <title lang="zh">Live: Athletes Unlimited Softball League</title>
+    <desc>From The Stadium at the Parkway Bank Sports Complex in Rosemont, Ill.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614180000 +0000" stop="20260614200000 +0000">
+    <title lang="zh">AKC Events</title>
+    <desc>Assorted canine events run by the American Kennel Club.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614200000 +0000" stop="20260614210000 +0000">
+    <title lang="zh">WSL: Inside Pro Surfing</title>
+    <desc>WSL: Inside Pro Surfing - 2026 Bonsoy Gold Coast Pro.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614210000 +0000" stop="20260614220000 +0000">
+    <title lang="zh">E60</title>
+    <desc>Explores the Thunder's relationship with Oklahoma City.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614220000 +0000" stop="20260614230000 +0000">
+    <title lang="zh">30 for 30</title>
+    <desc>Filmmaker Brett Morgen chronicles events: Arnold Palmer plays his last round at a U.S. Open, the FIFA World Cup kicks off in Chicago, the Rangers celebrate on Broadway, O.J. Simpson leads America on a slow speed chase in a white Ford Bronco.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260614230000 +0000" stop="20260615000000 +0000">
+    <title lang="zh">Live: The Point</title>
+    <desc>Featuring highlights, news, analysis, speed, skill and access to the stars, stories and personalities of the game; hosted by John Buccigross.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="465373" start="20260615000000 +0000" stop="20260616000000 +0000">
+    <title lang="zh">Banana Ball World Tour</title>
+    <desc>From Memorial Stadium in Lincoln, Neb.</desc>
     <date>2026-06-15</date>
   </programme>
 </tv>
