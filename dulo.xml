@@ -412,71 +412,6 @@
     <desc>The Texas Longhorns and Georgia Bulldogs meet in Game 4 of the Men's College World Series. The Bulldogs rely on Daniel Jackson and his .396 batting average, while the Longhorns look to Anthony Pack Jr. who leads the team with his .359 average.</desc>
     <date>2026-06-14</date>
   </programme>
-  <programme channel="464937" start="20260612003000 +0000" stop="20260612033000 +0000">
-    <title lang="zh">Live: CFL Football</title>
-    <desc>The Winnipeg Blue Bombers and Hamilton Tiger-Cats square off in a regular-season matchup. Host Blue Bombers lean on running back Brady Oliveira after his 113-yard performance, while the Tiger-Cats rely on Bo Levi Mitchell and his 307 passing yards.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612033000 +0000" stop="20260612050000 +0000">
-    <title lang="zh">UFC Countdown</title>
-    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612050000 +0000" stop="20260612080000 +0000">
-    <title lang="zh">UFC Reloaded</title>
-    <desc>The replay of UFC pay-per-views and Fight Night events.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612080000 +0000" stop="20260612090000 +0000">
-    <title lang="zh">UFC Main Event</title>
-    <desc>We take a look back at Alexander Volkanovski and Max Holloway's UFC 276 bout as the pair met in the featherweight division for the third time back in July 2022.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612090000 +0000" stop="20260612100000 +0000">
-    <title lang="zh">UFC Main Event</title>
-    <desc>At UFC 309, former lightweight champion Charles Oliveira faces Michael Chandler in a rematch at Madison Square Garden.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612100000 +0000" stop="20260612140000 +0000">
-    <title lang="zh">Live: Boomer and Gio</title>
-    <desc>CBS Sports Network simulcasts WFAN's "Boomer and Gio." Former NFL MVP Boomer Esiason and longtime radio personality Gregg Giannotti tackle the latest sports news and headlines.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612140000 +0000" stop="20260612153000 +0000">
-    <title lang="zh">UFC Countdown</title>
-    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612153000 +0000" stop="20260612160000 +0000">
-    <title lang="zh">UFC Fight Flashback</title>
-    <desc>UFC Fight Flashback is an enhanced replay of some of the most memorable title fights in UFC history, featuring never-before-seen footage from state-of-the-art cameras, and exclusive new sound.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612160000 +0000" stop="20260612170000 +0000">
-    <title lang="zh">Early Edge</title>
-    <desc>The Early Edge breaks down the day's biggest games, giving sports fans the best bets -- from long shots to sure things.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612170000 +0000" stop="20260612180000 +0000">
-    <title lang="zh">The Joe &amp; Ruffino Show</title>
-    <desc>Blake Ruffino and Joe DeLeone join forces to talk about the latest in the SEC and College Football.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612180000 +0000" stop="20260612200000 +0000">
-    <title lang="zh">CBS Sports HQ Spotlight</title>
-    <desc>Sports news and highlights.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612200000 +0000" stop="20260612220000 +0000">
-    <title lang="zh">CBS Sports HQ Spotlight</title>
-    <desc>Sports news and highlights.</desc>
-    <date>2026-06-12</date>
-  </programme>
-  <programme channel="464937" start="20260612220000 +0000" stop="20260613000000 +0000">
-    <title lang="zh">Live: AVP Beach Volleyball</title>
-    <desc>Coverage of beach volleyball competitions from around the United States.</desc>
-    <date>2026-06-12</date>
-  </programme>
   <programme channel="464937" start="20260613000000 +0000" stop="20260613013000 +0000">
     <title lang="zh">UFC Countdown</title>
     <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
@@ -561,5 +496,80 @@
     <title lang="zh">Live: CFL Football</title>
     <desc>The BC Lions face the Saskatchewan Roughriders in Week 2 of the CFL regular season. Quarterback Nathan Rourke commands the Lions against Trevor Harris and the Roughriders as the West Division contenders clash on the gridiron.</desc>
     <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260614020000 +0000" stop="20260614050000 +0000">
+    <title lang="zh">UFC Ultimate Knockouts</title>
+    <desc>Memorable knock-outs from throughout MMA history.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614050000 +0000" stop="20260614053000 +0000">
+    <title lang="zh">UFC Ultimate Knockouts</title>
+    <desc>A look at Dana White's contender series alumni.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614053000 +0000" stop="20260614060000 +0000">
+    <title lang="zh">UFC Fight Flashback</title>
+    <desc>UFC Fight Flashback is an enhanced replay of some of the most memorable title fights in UFC history, featuring never-before-seen footage from state-of-the-art cameras, and exclusive new sound.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614060000 +0000" stop="20260614063000 +0000">
+    <title lang="zh">UFC - The Walk</title>
+    <desc>An inside look at Dustin Poirier and Conor McGregor preparing to face off again at UFC 257 in Abu Dhabi.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614063000 +0000" stop="20260614070000 +0000">
+    <title lang="zh">UFC - The Walk</title>
+    <desc>Go behind-the-scenes with the UFC's biggest stars in the lead up to some of the biggest fights of their careers.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614070000 +0000" stop="20260614100000 +0000">
+    <title lang="zh">UFC Reloaded</title>
+    <desc>Max Holloway attempts to regain his title against newly crowned champion Ilia Topuria. Plus, former middleweight champion Robert Whittaker faces undefeated Khamzat Chimaev in a title eliminator bout.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614100000 +0000" stop="20260614120000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Bowlero Brooklyn Park, Minn.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614120000 +0000" stop="20260614140000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614140000 +0000" stop="20260614160000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Thunderbowl Lanes in Allen Park, Mich.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614160000 +0000" stop="20260614163000 +0000">
+    <title lang="zh">UFC Fight Flashback</title>
+    <desc>UFC Fight Flashback is an enhanced replay of some of the most memorable title fights in UFC history, featuring never-before-seen footage from state-of-the-art cameras, and exclusive new sound.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614163000 +0000" stop="20260614193000 +0000">
+    <title lang="zh">UFC Ultimate Knockouts</title>
+    <desc>Memorable knock-outs from throughout MMA history.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614193000 +0000" stop="20260614210000 +0000">
+    <title lang="zh">UFC Countdown</title>
+    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614210000 +0000" stop="20260614220000 +0000">
+    <title lang="zh">Live: UFC Freedom 250 Pre Show</title>
+    <desc>A last-minute look at the upcoming UFC Freedom 250 event from Washington, D.C.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614220000 +0000" stop="20260615000000 +0000">
+    <title lang="zh">Live: UFC Freedom 250 Pre Show</title>
+    <desc>A last-minute look at the upcoming UFC Freedom 250 event from Washington, D.C.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260615000000 +0000" stop="20260616000000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Thunderbowl Lanes in Allen Park, Mich.</desc>
+    <date>2026-06-15</date>
   </programme>
 </tv>
