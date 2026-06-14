@@ -1,172 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="Dulo Channels Scraper">
-  <channel id="464937">
-    <display-name lang="US">CBS Sports Network HD</display-name>
-    <icon src="" />
-  </channel>
   <channel id="465373">
     <display-name lang="US">ESPN2 HD</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="464937">
+    <display-name lang="US">CBS Sports Network HD</display-name>
     <icon src="" />
   </channel>
   <channel id="465198">
     <display-name lang="US">ESPN HD</display-name>
     <icon src="" />
   </channel>
-  <programme channel="464937" start="20260614020000 +0000" stop="20260614050000 +0000">
-    <title lang="zh">UFC Ultimate Knockouts</title>
-    <desc>Memorable knock-outs from throughout MMA history.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614050000 +0000" stop="20260614053000 +0000">
-    <title lang="zh">UFC Ultimate Knockouts</title>
-    <desc>A look at Dana White's contender series alumni.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614053000 +0000" stop="20260614060000 +0000">
-    <title lang="zh">UFC Fight Flashback</title>
-    <desc>UFC Fight Flashback is an enhanced replay of some of the most memorable title fights in UFC history, featuring never-before-seen footage from state-of-the-art cameras, and exclusive new sound.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614060000 +0000" stop="20260614063000 +0000">
-    <title lang="zh">UFC - The Walk</title>
-    <desc>An inside look at Dustin Poirier and Conor McGregor preparing to face off again at UFC 257 in Abu Dhabi.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614063000 +0000" stop="20260614070000 +0000">
-    <title lang="zh">UFC - The Walk</title>
-    <desc>Go behind-the-scenes with the UFC's biggest stars in the lead up to some of the biggest fights of their careers.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614070000 +0000" stop="20260614100000 +0000">
-    <title lang="zh">UFC Reloaded</title>
-    <desc>Max Holloway attempts to regain his title against newly crowned champion Ilia Topuria. Plus, former middleweight champion Robert Whittaker faces undefeated Khamzat Chimaev in a title eliminator bout.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614100000 +0000" stop="20260614120000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>From Bowlero Brooklyn Park, Minn.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614120000 +0000" stop="20260614140000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614140000 +0000" stop="20260614160000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>From Thunderbowl Lanes in Allen Park, Mich.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614160000 +0000" stop="20260614163000 +0000">
-    <title lang="zh">UFC Fight Flashback</title>
-    <desc>UFC Fight Flashback is an enhanced replay of some of the most memorable title fights in UFC history, featuring never-before-seen footage from state-of-the-art cameras, and exclusive new sound.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614163000 +0000" stop="20260614193000 +0000">
-    <title lang="zh">UFC Ultimate Knockouts</title>
-    <desc>Memorable knock-outs from throughout MMA history.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614193000 +0000" stop="20260614210000 +0000">
-    <title lang="zh">UFC Countdown</title>
-    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614210000 +0000" stop="20260614220000 +0000">
-    <title lang="zh">Live: UFC Freedom 250 Pre Show</title>
-    <desc>A last-minute look at the upcoming UFC Freedom 250 event from Washington, D.C.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614220000 +0000" stop="20260615000000 +0000">
-    <title lang="zh">Live: UFC Freedom 250 Pre Show</title>
-    <desc>A last-minute look at the upcoming UFC Freedom 250 event from Washington, D.C.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260615000000 +0000" stop="20260615020000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>From Thunderbowl Lanes in Allen Park, Mich.</desc>
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615020000 +0000" stop="20260615030000 +0000">
-    <title lang="zh">Boat Racing</title>
-    <desc>New Orleans is the backdrop for this stop on the IHRA Offshore Boat Racing series, featuring powerboat action in multiple classes.</desc>
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615030000 +0000" stop="20260615040000 +0000">
-    <title lang="zh">IHRA Racing</title>
-    <desc>From Dinwiddie, Fla.</desc>
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615040000 +0000" stop="20260615050000 +0000">
-    <title lang="zh">Boat Racing</title>
-    <desc />
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615050000 +0000" stop="20260615060000 +0000">
-    <title lang="zh">Boat Racing</title>
-    <desc>New Orleans is the backdrop for this stop on the IHRA Offshore Boat Racing series, featuring powerboat action in multiple classes.</desc>
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615060000 +0000" stop="20260615070000 +0000">
-    <title lang="zh">Poker Night in America</title>
-    <desc>The show keeps it pretty simple, emphasizing the fun personalities and stories behind the players, injecting lifestyle and reality aspects to the game.</desc>
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615070000 +0000" stop="20260615080000 +0000">
-    <title lang="zh">Poker Night in America</title>
-    <desc>The show keeps it pretty simple, emphasizing the fun personalities and stories behind the players, injecting lifestyle and reality aspects to the game.</desc>
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615080000 +0000" stop="20260615090000 +0000">
-    <title lang="zh">Poker Night in America</title>
-    <desc>The show keeps it pretty simple, emphasizing the fun personalities and stories behind the players, injecting lifestyle and reality aspects to the game.</desc>
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615090000 +0000" stop="20260615100000 +0000">
-    <title lang="zh">Poker Night in America</title>
-    <desc>The show keeps it pretty simple, emphasizing the fun personalities and stories behind the players, injecting lifestyle and reality aspects to the game.</desc>
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615100000 +0000" stop="20260615140000 +0000">
-    <title lang="zh">Live: Boomer and Gio</title>
-    <desc>CBS Sports Network simulcasts WFAN's "Boomer and Gio." Former NFL MVP Boomer Esiason and longtime radio personality Gregg Giannotti tackle the latest sports news and headlines.</desc>
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615140000 +0000" stop="20260615150000 +0000">
-    <title lang="zh">Disc Golf Pro Tour</title>
-    <desc>From Jefferson Parish, La.</desc>
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615150000 +0000" stop="20260615160000 +0000">
-    <title lang="zh">Disc Golf Pro Tour</title>
-    <desc>The top professionals compete for prize money on the Disc Golf Pro Tour.</desc>
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615160000 +0000" stop="20260615170000 +0000">
-    <title lang="zh">Early Edge</title>
-    <desc>The Early Edge breaks down the day's biggest games, giving sports fans the best bets -- from long shots to sure things.</desc>
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615170000 +0000" stop="20260615180000 +0000">
-    <title lang="zh">College Basketball Talk</title>
-    <desc />
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615180000 +0000" stop="20260615200000 +0000">
-    <title lang="zh">CBS Sports HQ Spotlight</title>
-    <desc>Sports news and highlights.</desc>
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615200000 +0000" stop="20260615220000 +0000">
-    <title lang="zh">CBS Sports HQ Spotlight</title>
-    <desc>Sports news and highlights.</desc>
-    <date>2026-06-15</date>
-  </programme>
-  <programme channel="464937" start="20260615220000 +0000" stop="20260616000000 +0000">
-    <title lang="zh">PGA Tour Golf</title>
-    <desc>The final round of the 2026 RBC Canadian Open begins at TPC Toronto at Osprey Valley in Caledon, Ontario. This represents the fourth round of the tournament, where the champion is crowned and lifts the historic RBC Canadian Open trophy.</desc>
-    <date>2026-06-15</date>
-  </programme>
   <programme channel="465373" start="20260614000000 +0000" stop="20260614023000 +0000">
     <title lang="zh">Live: College Track and Field</title>
     <desc>From Hayward Field in Eugene, Ore.</desc>
@@ -375,6 +220,161 @@
   <programme channel="465373" start="20260615230000 +0000" stop="20260616000000 +0000">
     <title lang="zh">Live: Athletes Unlimited Softball League</title>
     <desc>From Smith Family Stadium in Durham, N.C.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260614020000 +0000" stop="20260614050000 +0000">
+    <title lang="zh">UFC Ultimate Knockouts</title>
+    <desc>Memorable knock-outs from throughout MMA history.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614050000 +0000" stop="20260614053000 +0000">
+    <title lang="zh">UFC Ultimate Knockouts</title>
+    <desc>A look at Dana White's contender series alumni.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614053000 +0000" stop="20260614060000 +0000">
+    <title lang="zh">UFC Fight Flashback</title>
+    <desc>UFC Fight Flashback is an enhanced replay of some of the most memorable title fights in UFC history, featuring never-before-seen footage from state-of-the-art cameras, and exclusive new sound.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614060000 +0000" stop="20260614063000 +0000">
+    <title lang="zh">UFC - The Walk</title>
+    <desc>An inside look at Dustin Poirier and Conor McGregor preparing to face off again at UFC 257 in Abu Dhabi.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614063000 +0000" stop="20260614070000 +0000">
+    <title lang="zh">UFC - The Walk</title>
+    <desc>Go behind-the-scenes with the UFC's biggest stars in the lead up to some of the biggest fights of their careers.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614070000 +0000" stop="20260614100000 +0000">
+    <title lang="zh">UFC Reloaded</title>
+    <desc>Max Holloway attempts to regain his title against newly crowned champion Ilia Topuria. Plus, former middleweight champion Robert Whittaker faces undefeated Khamzat Chimaev in a title eliminator bout.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614100000 +0000" stop="20260614120000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Bowlero Brooklyn Park, Minn.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614120000 +0000" stop="20260614140000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614140000 +0000" stop="20260614160000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Thunderbowl Lanes in Allen Park, Mich.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614160000 +0000" stop="20260614163000 +0000">
+    <title lang="zh">UFC Fight Flashback</title>
+    <desc>UFC Fight Flashback is an enhanced replay of some of the most memorable title fights in UFC history, featuring never-before-seen footage from state-of-the-art cameras, and exclusive new sound.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614163000 +0000" stop="20260614193000 +0000">
+    <title lang="zh">UFC Ultimate Knockouts</title>
+    <desc>Memorable knock-outs from throughout MMA history.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614193000 +0000" stop="20260614210000 +0000">
+    <title lang="zh">UFC Countdown</title>
+    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614210000 +0000" stop="20260614220000 +0000">
+    <title lang="zh">Live: UFC Freedom 250 Pre Show</title>
+    <desc>A last-minute look at the upcoming UFC Freedom 250 event from Washington, D.C.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614220000 +0000" stop="20260615000000 +0000">
+    <title lang="zh">Live: UFC Freedom 250 Pre Show</title>
+    <desc>A last-minute look at the upcoming UFC Freedom 250 event from Washington, D.C.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260615000000 +0000" stop="20260615020000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Thunderbowl Lanes in Allen Park, Mich.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615020000 +0000" stop="20260615030000 +0000">
+    <title lang="zh">Boat Racing</title>
+    <desc>New Orleans is the backdrop for this stop on the IHRA Offshore Boat Racing series, featuring powerboat action in multiple classes.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615030000 +0000" stop="20260615040000 +0000">
+    <title lang="zh">IHRA Racing</title>
+    <desc>From Dinwiddie, Fla.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615040000 +0000" stop="20260615050000 +0000">
+    <title lang="zh">Boat Racing</title>
+    <desc />
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615050000 +0000" stop="20260615060000 +0000">
+    <title lang="zh">Boat Racing</title>
+    <desc>New Orleans is the backdrop for this stop on the IHRA Offshore Boat Racing series, featuring powerboat action in multiple classes.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615060000 +0000" stop="20260615070000 +0000">
+    <title lang="zh">Poker Night in America</title>
+    <desc>The show keeps it pretty simple, emphasizing the fun personalities and stories behind the players, injecting lifestyle and reality aspects to the game.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615070000 +0000" stop="20260615080000 +0000">
+    <title lang="zh">Poker Night in America</title>
+    <desc>The show keeps it pretty simple, emphasizing the fun personalities and stories behind the players, injecting lifestyle and reality aspects to the game.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615080000 +0000" stop="20260615090000 +0000">
+    <title lang="zh">Poker Night in America</title>
+    <desc>The show keeps it pretty simple, emphasizing the fun personalities and stories behind the players, injecting lifestyle and reality aspects to the game.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615090000 +0000" stop="20260615100000 +0000">
+    <title lang="zh">Poker Night in America</title>
+    <desc>The show keeps it pretty simple, emphasizing the fun personalities and stories behind the players, injecting lifestyle and reality aspects to the game.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615100000 +0000" stop="20260615140000 +0000">
+    <title lang="zh">Live: Boomer and Gio</title>
+    <desc>CBS Sports Network simulcasts WFAN's "Boomer and Gio." Former NFL MVP Boomer Esiason and longtime radio personality Gregg Giannotti tackle the latest sports news and headlines.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615140000 +0000" stop="20260615150000 +0000">
+    <title lang="zh">Disc Golf Pro Tour</title>
+    <desc>From Jefferson Parish, La.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615150000 +0000" stop="20260615160000 +0000">
+    <title lang="zh">Disc Golf Pro Tour</title>
+    <desc>The top professionals compete for prize money on the Disc Golf Pro Tour.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615160000 +0000" stop="20260615170000 +0000">
+    <title lang="zh">Early Edge</title>
+    <desc>The Early Edge breaks down the day's biggest games, giving sports fans the best bets -- from long shots to sure things.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615170000 +0000" stop="20260615180000 +0000">
+    <title lang="zh">College Basketball Talk</title>
+    <desc />
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615180000 +0000" stop="20260615200000 +0000">
+    <title lang="zh">CBS Sports HQ Spotlight</title>
+    <desc>Sports news and highlights.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615200000 +0000" stop="20260615220000 +0000">
+    <title lang="zh">CBS Sports HQ Spotlight</title>
+    <desc>Sports news and highlights.</desc>
+    <date>2026-06-15</date>
+  </programme>
+  <programme channel="464937" start="20260615220000 +0000" stop="20260616000000 +0000">
+    <title lang="zh">PGA Tour Golf</title>
+    <desc>The final round of the 2026 RBC Canadian Open begins at TPC Toronto at Osprey Valley in Caledon, Ontario. This represents the fourth round of the tournament, where the champion is crowned and lifts the historic RBC Canadian Open trophy.</desc>
     <date>2026-06-15</date>
   </programme>
   <programme channel="465198" start="20260614000000 +0000" stop="20260614030000 +0000">
