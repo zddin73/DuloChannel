@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="Dulo Channels Scraper">
+  <channel id="464937">
+    <display-name lang="US">CBS Sports Network HD</display-name>
+    <icon src="" />
+  </channel>
   <channel id="465373">
     <display-name lang="US">ESPN2 HD</display-name>
     <icon src="" />
@@ -8,10 +12,166 @@
     <display-name lang="US">ESPN HD</display-name>
     <icon src="" />
   </channel>
-  <channel id="464937">
-    <display-name lang="US">CBS Sports Network HD</display-name>
-    <icon src="" />
-  </channel>
+  <programme channel="464937" start="20260613000000 +0000" stop="20260613013000 +0000">
+    <title lang="zh">UFC Countdown</title>
+    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613013000 +0000" stop="20260613043000 +0000">
+    <title lang="zh">UFC Reloaded</title>
+    <desc>Bantamweight champion Aljamain Sterling defends his title against fighting rival, Sean O'Malley. Also, Zhang Weili goes head-to-head with veteran Amanda Lemos.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613043000 +0000" stop="20260613050000 +0000">
+    <title lang="zh">UFC - The Walk</title>
+    <desc>Go behind-the-scenes with the UFC's biggest stars in the lead up to some of the biggest fights of their careers.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613050000 +0000" stop="20260613053000 +0000">
+    <title lang="zh">UFC Ultimate Knockouts</title>
+    <desc>A look at Dana White's contender series alumni.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613053000 +0000" stop="20260613070000 +0000">
+    <title lang="zh">UFC Countdown</title>
+    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613070000 +0000" stop="20260613100000 +0000">
+    <title lang="zh">UFC Reloaded</title>
+    <desc>Newly crowned bantamweight champion Sean O'Malley has his first title defense against the only man to beat him, top contender Marlon Vera. Plus, Dustin Poirier takes on Benoit Saint Denis and Michael Page makes his debut against Kevin Holland.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613100000 +0000" stop="20260613110000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>Action from the PBA bowling tour.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613110000 +0000" stop="20260613130000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613130000 +0000" stop="20260613150000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613150000 +0000" stop="20260613170000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>Action from the PBA bowling tour.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613170000 +0000" stop="20260613180000 +0000">
+    <title lang="zh">Disc Golf Pro Tour</title>
+    <desc>The top professionals compete for prize money on the Disc Golf Pro Tour.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613180000 +0000" stop="20260613193000 +0000">
+    <title lang="zh">E1 Championship</title>
+    <desc />
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613193000 +0000" stop="20260613200000 +0000">
+    <title lang="zh">Watercross</title>
+    <desc>Pro watercross racers take on the course at Lake Crook State Park in Paris, Texas.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613200000 +0000" stop="20260613220000 +0000">
+    <title lang="zh">Live: Athletes Unlimited Softball League</title>
+    <desc>From Dumke Family Softball Stadium in Salt Lake City.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613220000 +0000" stop="20260613223000 +0000">
+    <title lang="zh">World of Outlaws</title>
+    <desc>Eastaboga, Ala.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613223000 +0000" stop="20260613230000 +0000">
+    <title lang="zh">World of Outlaws</title>
+    <desc>From Pevely, Mo.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260613230000 +0000" stop="20260614000000 +0000">
+    <title lang="zh">Live: CFL Football</title>
+    <desc>The BC Lions face the Saskatchewan Roughriders in Week 2 of the CFL regular season. Quarterback Nathan Rourke commands the Lions against Trevor Harris and the Roughriders as the West Division contenders clash on the gridiron.</desc>
+    <date>2026-06-13</date>
+  </programme>
+  <programme channel="464937" start="20260614020000 +0000" stop="20260614050000 +0000">
+    <title lang="zh">UFC Ultimate Knockouts</title>
+    <desc>Memorable knock-outs from throughout MMA history.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614050000 +0000" stop="20260614053000 +0000">
+    <title lang="zh">UFC Ultimate Knockouts</title>
+    <desc>A look at Dana White's contender series alumni.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614053000 +0000" stop="20260614060000 +0000">
+    <title lang="zh">UFC Fight Flashback</title>
+    <desc>UFC Fight Flashback is an enhanced replay of some of the most memorable title fights in UFC history, featuring never-before-seen footage from state-of-the-art cameras, and exclusive new sound.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614060000 +0000" stop="20260614063000 +0000">
+    <title lang="zh">UFC - The Walk</title>
+    <desc>An inside look at Dustin Poirier and Conor McGregor preparing to face off again at UFC 257 in Abu Dhabi.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614063000 +0000" stop="20260614070000 +0000">
+    <title lang="zh">UFC - The Walk</title>
+    <desc>Go behind-the-scenes with the UFC's biggest stars in the lead up to some of the biggest fights of their careers.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614070000 +0000" stop="20260614100000 +0000">
+    <title lang="zh">UFC Reloaded</title>
+    <desc>Max Holloway attempts to regain his title against newly crowned champion Ilia Topuria. Plus, former middleweight champion Robert Whittaker faces undefeated Khamzat Chimaev in a title eliminator bout.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614100000 +0000" stop="20260614120000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Bowlero Brooklyn Park, Minn.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614120000 +0000" stop="20260614140000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614140000 +0000" stop="20260614160000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Thunderbowl Lanes in Allen Park, Mich.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614160000 +0000" stop="20260614163000 +0000">
+    <title lang="zh">UFC Fight Flashback</title>
+    <desc>UFC Fight Flashback is an enhanced replay of some of the most memorable title fights in UFC history, featuring never-before-seen footage from state-of-the-art cameras, and exclusive new sound.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614163000 +0000" stop="20260614193000 +0000">
+    <title lang="zh">UFC Ultimate Knockouts</title>
+    <desc>Memorable knock-outs from throughout MMA history.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614193000 +0000" stop="20260614210000 +0000">
+    <title lang="zh">UFC Countdown</title>
+    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614210000 +0000" stop="20260614220000 +0000">
+    <title lang="zh">Live: UFC Freedom 250 Pre Show</title>
+    <desc>A last-minute look at the upcoming UFC Freedom 250 event from Washington, D.C.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260614220000 +0000" stop="20260615000000 +0000">
+    <title lang="zh">Live: UFC Freedom 250 Pre Show</title>
+    <desc>A last-minute look at the upcoming UFC Freedom 250 event from Washington, D.C.</desc>
+    <date>2026-06-14</date>
+  </programme>
+  <programme channel="464937" start="20260615000000 +0000" stop="20260616000000 +0000">
+    <title lang="zh">PBA Bowling</title>
+    <desc>From Thunderbowl Lanes in Allen Park, Mich.</desc>
+    <date>2026-06-15</date>
+  </programme>
   <programme channel="465373" start="20260613000000 +0000" stop="20260613023000 +0000">
     <title lang="zh">Live: College Track and Field</title>
     <desc>From Hayward Field in Eugene, Ore.</desc>
@@ -441,165 +601,5 @@
     <title lang="zh">Live: 2026 Men's College World Series</title>
     <desc>From Charles Schwab Field Omaha in Omaha, Neb.</desc>
     <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260613000000 +0000" stop="20260613013000 +0000">
-    <title lang="zh">UFC Countdown</title>
-    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613013000 +0000" stop="20260613043000 +0000">
-    <title lang="zh">UFC Reloaded</title>
-    <desc>Bantamweight champion Aljamain Sterling defends his title against fighting rival, Sean O'Malley. Also, Zhang Weili goes head-to-head with veteran Amanda Lemos.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613043000 +0000" stop="20260613050000 +0000">
-    <title lang="zh">UFC - The Walk</title>
-    <desc>Go behind-the-scenes with the UFC's biggest stars in the lead up to some of the biggest fights of their careers.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613050000 +0000" stop="20260613053000 +0000">
-    <title lang="zh">UFC Ultimate Knockouts</title>
-    <desc>A look at Dana White's contender series alumni.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613053000 +0000" stop="20260613070000 +0000">
-    <title lang="zh">UFC Countdown</title>
-    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613070000 +0000" stop="20260613100000 +0000">
-    <title lang="zh">UFC Reloaded</title>
-    <desc>Newly crowned bantamweight champion Sean O'Malley has his first title defense against the only man to beat him, top contender Marlon Vera. Plus, Dustin Poirier takes on Benoit Saint Denis and Michael Page makes his debut against Kevin Holland.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613100000 +0000" stop="20260613110000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>Action from the PBA bowling tour.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613110000 +0000" stop="20260613130000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613130000 +0000" stop="20260613150000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613150000 +0000" stop="20260613170000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>Action from the PBA bowling tour.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613170000 +0000" stop="20260613180000 +0000">
-    <title lang="zh">Disc Golf Pro Tour</title>
-    <desc>The top professionals compete for prize money on the Disc Golf Pro Tour.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613180000 +0000" stop="20260613193000 +0000">
-    <title lang="zh">E1 Championship</title>
-    <desc />
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613193000 +0000" stop="20260613200000 +0000">
-    <title lang="zh">Watercross</title>
-    <desc>Pro watercross racers take on the course at Lake Crook State Park in Paris, Texas.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613200000 +0000" stop="20260613220000 +0000">
-    <title lang="zh">Live: Athletes Unlimited Softball League</title>
-    <desc>From Dumke Family Softball Stadium in Salt Lake City.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613220000 +0000" stop="20260613223000 +0000">
-    <title lang="zh">World of Outlaws</title>
-    <desc>Eastaboga, Ala.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613223000 +0000" stop="20260613230000 +0000">
-    <title lang="zh">World of Outlaws</title>
-    <desc>From Pevely, Mo.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260613230000 +0000" stop="20260614000000 +0000">
-    <title lang="zh">Live: CFL Football</title>
-    <desc>The BC Lions face the Saskatchewan Roughriders in Week 2 of the CFL regular season. Quarterback Nathan Rourke commands the Lions against Trevor Harris and the Roughriders as the West Division contenders clash on the gridiron.</desc>
-    <date>2026-06-13</date>
-  </programme>
-  <programme channel="464937" start="20260614020000 +0000" stop="20260614050000 +0000">
-    <title lang="zh">UFC Ultimate Knockouts</title>
-    <desc>Memorable knock-outs from throughout MMA history.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614050000 +0000" stop="20260614053000 +0000">
-    <title lang="zh">UFC Ultimate Knockouts</title>
-    <desc>A look at Dana White's contender series alumni.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614053000 +0000" stop="20260614060000 +0000">
-    <title lang="zh">UFC Fight Flashback</title>
-    <desc>UFC Fight Flashback is an enhanced replay of some of the most memorable title fights in UFC history, featuring never-before-seen footage from state-of-the-art cameras, and exclusive new sound.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614060000 +0000" stop="20260614063000 +0000">
-    <title lang="zh">UFC - The Walk</title>
-    <desc>An inside look at Dustin Poirier and Conor McGregor preparing to face off again at UFC 257 in Abu Dhabi.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614063000 +0000" stop="20260614070000 +0000">
-    <title lang="zh">UFC - The Walk</title>
-    <desc>Go behind-the-scenes with the UFC's biggest stars in the lead up to some of the biggest fights of their careers.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614070000 +0000" stop="20260614100000 +0000">
-    <title lang="zh">UFC Reloaded</title>
-    <desc>Max Holloway attempts to regain his title against newly crowned champion Ilia Topuria. Plus, former middleweight champion Robert Whittaker faces undefeated Khamzat Chimaev in a title eliminator bout.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614100000 +0000" stop="20260614120000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>From Bowlero Brooklyn Park, Minn.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614120000 +0000" stop="20260614140000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>From Bowlero Brooklyn Park in Brooklyn Park, Minn.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614140000 +0000" stop="20260614160000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>From Thunderbowl Lanes in Allen Park, Mich.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614160000 +0000" stop="20260614163000 +0000">
-    <title lang="zh">UFC Fight Flashback</title>
-    <desc>UFC Fight Flashback is an enhanced replay of some of the most memorable title fights in UFC history, featuring never-before-seen footage from state-of-the-art cameras, and exclusive new sound.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614163000 +0000" stop="20260614193000 +0000">
-    <title lang="zh">UFC Ultimate Knockouts</title>
-    <desc>Memorable knock-outs from throughout MMA history.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614193000 +0000" stop="20260614210000 +0000">
-    <title lang="zh">UFC Countdown</title>
-    <desc>A look at the lives and training camps of UFC athletes as they prepare for the next UFC pay-per-view event.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614210000 +0000" stop="20260614220000 +0000">
-    <title lang="zh">Live: UFC Freedom 250 Pre Show</title>
-    <desc>A last-minute look at the upcoming UFC Freedom 250 event from Washington, D.C.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260614220000 +0000" stop="20260615000000 +0000">
-    <title lang="zh">Live: UFC Freedom 250 Pre Show</title>
-    <desc>A last-minute look at the upcoming UFC Freedom 250 event from Washington, D.C.</desc>
-    <date>2026-06-14</date>
-  </programme>
-  <programme channel="464937" start="20260615000000 +0000" stop="20260616000000 +0000">
-    <title lang="zh">PBA Bowling</title>
-    <desc>From Thunderbowl Lanes in Allen Park, Mich.</desc>
-    <date>2026-06-15</date>
   </programme>
 </tv>
